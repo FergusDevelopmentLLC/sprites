@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Mapbox Sprite Example</title>
+    <title>Mapbox Streets Example</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css" rel="stylesheet" />
@@ -17,66 +17,44 @@
         // Set the Mapbox access token
         mapboxgl.accessToken = 'pk.eyJ1Ijoid2lsbGNhcnRlciIsImEiOiJjbHhoc29lZHUxZTFrMmtvZ3A5a294YmRzIn0.Ku7Nk7ydXtJkB0PikcBppw';
 
-        // Initialize the map
+        // Initialize the map using the Mapbox Streets style
         const map = new mapboxgl.Map({
             container: 'map', // Container ID
-            style: {
-                "version": 8,
-                "sources": {
-                    "mapbox": {
-                        "type": "vector",
-                        "url": "mapbox://mapbox.mapbox-streets-v8"
-                    },
-                    "custom-points": {
-                        "type": "geojson",
-                        "data": {
-                            "type": "FeatureCollection",
-                            "features": [
-                                {
-                                    "type": "Feature",
-                                    "geometry": {
-                                        "type": "Point",
-                                        "coordinates": [-97.7431, 30.2672] // Coordinates for Austin, TX
-                                    },
-                                    "properties": {
-                                        "icon": "4_998_998_999_1_7_1" // Use your sprite name here
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "layers": [
-                    {
-                        "id": "background",
-                        "type": "background",
-                        "paint": {
-                            "background-color": "#ddeeff"
-                        }
-                    },
-                    {
-                        "id": "water",
-                        "source": "mapbox",
-                        "source-layer": "water",
-                        "type": "fill",
-                        "paint": {
-                            "fill-color": "#a4c2f4"
-                        }
-                    },
-                    {
-                        "id": "custom-sprite-layer",
-                        "type": "symbol",
-                        "source": "custom-points", // Reference the source by name
-                        "layout": {
-                            "icon-image": "{icon}",
-                            "icon-size": 1
-                        }
-                    }
-                ],
-                "sprite": "https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/sprites"
-            },
+            style: 'mapbox://styles/mapbox/streets-v12', // Use the built-in streets style
             center: [-97.7431, 30.2672], // Center the map on Austin, TX
             zoom: 12 // Adjusted zoom level for a better view of the city
+        });
+
+        // Add a custom sprite layer
+        map.on('load', function() {
+            map.addSource('custom-points', {
+                'type': 'geojson',
+                'data': {
+                    'type': 'FeatureCollection',
+                    'features': [
+                        {
+                            'type': 'Feature',
+                            'geometry': {
+                                'type': 'Point',
+                                'coordinates': [-97.7431, 30.2672] // Coordinates for Austin, TX
+                            },
+                            'properties': {
+                                'icon': '4_998_998_999_1_7_1' // Use your sprite name here
+                            }
+                        }
+                    ]
+                }
+            });
+
+            map.addLayer({
+                'id': 'custom-sprite-layer',
+                'type': 'symbol',
+                'source': 'custom-points',
+                'layout': {
+                    'icon-image': '{icon}',
+                    'icon-size': 1
+                }
+            });
         });
 
         // Add navigation controls to the map
