@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapbox Streets with Custom Sprite Layer</title>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css" rel="stylesheet" />
+    <style>
+        body { margin: 0; padding: 0; }
+        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+        // Set the Mapbox access token
+        mapboxgl.accessToken = 'pk.eyJ1Ijoid2lsbGNhcnRlciIsImEiOiJjbHhoc29lZHUxZTFrMmtvZ3A5a294YmRzIn0.Ku7Nk7ydXtJkB0PikcBppw';
+
+        // Initialize the map using the Mapbox Streets style
+        const map = new mapboxgl.Map({
+            container: 'map', // Container ID
+            style: {
+                "version": 8,
+                "sprite": "https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/sprites", // Custom sprite URL
+                "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+                "sources": {
+                    "mapbox-streets": {
+                        "type": "vector",
+                        "url": "mapbox://mapbox.mapbox-streets-v8"
+                    },
+                    "custom-points": {
+                        "type": "geojson",
+                        "data": {
+                            "type": "FeatureCollection",
+                            "features": [
+                                {
+                                    "type": "Feature",
+                                    "geometry": {
+                                        "type": "Point",
+                                        "coordinates": [-97.7431, 30.2672] // Coordinates for Austin, TX
+                                    },
+                                    "properties": {
+                                        "icon": "4_998_998_999_1_7_1" // Use your sprite name here
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "layers": [
+                    {
+                        "id": "background",
+                        "type": "background",
+                        "paint": {
+                            "background-color": "#ddeeff"
+                        }
+                    },
+                    {
+                        "id": "water",
+                        "source": "mapbox-streets",
+                        "source-layer": "water",
+                        "type": "fill",
+                        "paint": {
+                            "fill-color": "#a4c2f4"
+                        }
+                    },
+                    {
+                        "id": "landuse",
+                        "source": "mapbox-streets",
+                        "source-layer": "landuse",
+                        "type": "fill",
+                        "paint": {
+                            "fill-color": "#e6e6e6"
+                        }
+                    },
+                    {
+                        "id": "roads",
+                        "source": "mapbox-streets",
+                        "source-layer": "road",
+                        "type": "line",
+                        "paint": {
+                            "line-color": "#cccccc",
+                            "line-width": 1
+                        }
+                    },
+                    {
+                        "id": "buildings",
+                        "source": "mapbox-streets",
+                        "source-layer": "building",
+                        "type": "fill",
+                        "paint": {
+                            "fill-color": "#d1d1d1"
+                        }
+                    },
+                    {
+                        "id": "custom-sprite-layer",
+                        "type": "symbol",
+                        "source": "custom-points",
+                        "layout": {
+                            "icon-image": "{icon}",
+                            "icon-size": 1
+                        }
+                    }
+                ]
+            },
+            center: [-97.7431, 30.2672], // Center the map on Austin, TX
+            zoom: 12 // Adjusted zoom level for a better view of the city
+        });
+
+        // Add navigation controls to the map
+        map.addControl(new mapboxgl.NavigationControl());
+    </script>
+</body>
+</html>
