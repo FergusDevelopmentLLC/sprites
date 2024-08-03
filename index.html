@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Mapbox GL JS Custom Sprites Example</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+    <style>
+        body { margin: 0; padding: 0; }
+        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+  mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN'; // Replace with your access token
+
+  const map = new mapboxgl.Map({
+    container: 'map',
+    style: {
+      version: 8,
+      sources: {},
+      layers: [],
+      sprite: 'https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/sprites'
+    },
+    center: [-97.7431, 30.2672], // Austin, TX coordinates
+    zoom: 12 // Adjusted zoom level to better view the city
+  });
+
+  map.on('load', () => {
+    map.addSource('custom-icon-source', {
+      type: 'geojson',
+      data: {
+        type: 'FeatureCollection',
+        features: [
+          {
+            type: 'Feature',
+            geometry: {
+              type: 'Point',
+              coordinates: [-97.7431, 30.2672] // Position the icon at Austin, TX
+            },
+            properties: {
+              icon: '4_998_998_999_1_7_1' // Ensure this matches the name in your JSON file
+            }
+          }
+        ]
+      }
+    });
+
+    map.addLayer({
+      id: 'custom-icons-layer',
+      type: 'symbol',
+      source: 'custom-icon-source',
+      layout: {
+        'icon-image': '{icon}', // Use the icon property from the feature
+        'icon-size': 1
+      }
+    });
+  });
+</script>
+</body>
+</html>
