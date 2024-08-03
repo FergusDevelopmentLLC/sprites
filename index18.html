@@ -37,6 +37,195 @@
                 "sprite": "https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/sprites", // Custom sprite URL
                 "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
                 "sources": {
+                    "composite": {
+                        "url": "mapbox://mapbox.mapbox-streets-v8,mapbox.mapbox-terrain-v2,mapbox.mapbox-bathymetry-v2",
+                        "type": "vector",
+                        "data": {
+                            "attribution": "<a href=\"https://www.mapbox.com/about/maps/\" target=\"_blank\" title=\"Mapbox\" aria-label=\"Mapbox\">&copy; Mapbox</a> <a href=\"https://www.openstreetmap.org/about/\" target=\"_blank\" title=\"OpenStreetMap\" aria-label=\"OpenStreetMap\">&copy; OpenStreetMap</a> <a class=\"mapbox-improve-map\" href=\"https://www.mapbox.com/contribute/\" target=\"_blank\" title=\"Improve this map\" aria-label=\"Improve this map\">Improve this map</a>",
+                            "bounds": [
+                                -180,
+                                -85,
+                                180,
+                                85
+                            ],
+                            "center": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "format": "pbf",
+                            "language_options": {
+                                "ar": "Arabic",
+                                "ca": "Catalan",
+                                "cs": "Czech",
+                                "da": "Danish",
+                                "de": "German",
+                                "el": "Greek",
+                                "en": "English",
+                                "es": "Spanish",
+                                "fa": "Farsi",
+                                "fi": "Finnish",
+                                "fr": "French",
+                                "he": "Hebrew",
+                                "hu": "Hungarian",
+                                "id": "Indonesian",
+                                "it": "Italian",
+                                "ja": "Japanese",
+                                "ka": "Georgian",
+                                "ko": "Korean",
+                                "local": "Renderable local language",
+                                "lv": "Latvian",
+                                "ms": "Malay",
+                                "nb": "Norwegian Bokmål",
+                                "nl": "Dutch",
+                                "no": "Norwegian",
+                                "pl": "Polish",
+                                "pt": "Portuguese",
+                                "ro": "Romanian",
+                                "ru": "Russian",
+                                "sk": "Slovak",
+                                "sl": "Slovenian",
+                                "sr": "Serbian",
+                                "sv": "Swedish",
+                                "th": "Thai",
+                                "tl": "Tagalog",
+                                "tr": "Turkish",
+                                "uk": "Ukrainian",
+                                "vi": "Vietnamese",
+                                "zh-Hans": "Simplified Chinese",
+                                "zh-Hant": "Traditional Chinese"
+                            },
+                            "mapbox_logo": true,
+                            "maskLevel": 9,
+                            "maxzoom": 16,
+                            "minzoom": 0,
+                            "name": "Mapbox Bathymetry v2 + Mapbox Terrain v2 + Mapbox Streets v8",
+                            "scheme": "xyz",
+                            "tilejson": "2.2.0",
+                            "tiles": [
+                                "https://a.tiles.mapbox.com/v4/mapbox.mapbox-streets-v8,mapbox.mapbox-terrain-v2,mapbox.mapbox-bathymetry-v2/{z}/{x}/{y}.vector.pbf?access_token=pk.eyJ1Ijoic2Fzc2xhIiwiYSI6ImNsanhseXVscjFzd3Qzc283Njl4a2ttczMifQ.5RU9yTL9-c9e-zLlKhtYew",
+                                "https://b.tiles.mapbox.com/v4/mapbox.mapbox-streets-v8,mapbox.mapbox-terrain-v2,mapbox.mapbox-bathymetry-v2/{z}/{x}/{y}.vector.pbf?access_token=pk.eyJ1Ijoic2Fzc2xhIiwiYSI6ImNsanhseXVscjFzd3Qzc283Njl4a2ttczMifQ.5RU9yTL9-c9e-zLlKhtYew"
+                            ],
+                            "vector_layers": [
+                                {
+                                    "id": "landuse",
+                                    "minzoom": 5,
+                                    "source": "mapbox.mapbox-streets-v8"
+                                },
+                                {
+                                    "id": "waterway",
+                                    "minzoom": 7,
+                                    "source": "mapbox.mapbox-streets-v8"
+                                },
+                                {
+                                    "id": "water",
+                                    "minzoom": 0,
+                                    "source": "mapbox.mapbox-streets-v8"
+                                },
+                                {
+                                    "id": "aeroway",
+                                    "minzoom": 9,
+                                    "source": "mapbox.mapbox-streets-v8"
+                                },
+                                {
+                                    "id": "structure",
+                                    "minzoom": 13,
+                                    "source": "mapbox.mapbox-streets-v8"
+                                },
+                                {
+                                    "id": "building",
+                                    "minzoom": 12,
+                                    "source": "mapbox.mapbox-streets-v8"
+                                },
+                                {
+                                    "id": "landuse_overlay",
+                                    "minzoom": 5,
+                                    "source": "mapbox.mapbox-streets-v8"
+                                },
+                                {
+                                    "id": "road",
+                                    "minzoom": 3,
+                                    "source": "mapbox.mapbox-streets-v8"
+                                },
+                                {
+                                    "id": "admin",
+                                    "minzoom": 0,
+                                    "source": "mapbox.mapbox-streets-v8"
+                                },
+                                {
+                                    "id": "place_label",
+                                    "minzoom": 0,
+                                    "source": "mapbox.mapbox-streets-v8"
+                                },
+                                {
+                                    "id": "airport_label",
+                                    "minzoom": 8,
+                                    "source": "mapbox.mapbox-streets-v8"
+                                },
+                                {
+                                    "id": "transit_stop_label",
+                                    "minzoom": 5,
+                                    "source": "mapbox.mapbox-streets-v8"
+                                },
+                                {
+                                    "id": "natural_label",
+                                    "minzoom": 0,
+                                    "source": "mapbox.mapbox-streets-v8"
+                                },
+                                {
+                                    "id": "poi_label",
+                                    "minzoom": 6,
+                                    "source": "mapbox.mapbox-streets-v8"
+                                },
+                                {
+                                    "id": "motorway_junction",
+                                    "minzoom": 9,
+                                    "source": "mapbox.mapbox-streets-v8"
+                                },
+                                {
+                                    "id": "housenum_label",
+                                    "minzoom": 16,
+                                    "source": "mapbox.mapbox-streets-v8"
+                                },
+                                {
+                                    "id": "landcover",
+                                    "maxzoom": 22,
+                                    "minzoom": 0,
+                                    "source": "mapbox.mapbox-terrain-v2"
+                                },
+                                {
+                                    "id": "hillshade",
+                                    "maxzoom": 22,
+                                    "minzoom": 0,
+                                    "source": "mapbox.mapbox-terrain-v2"
+                                },
+                                {
+                                    "id": "contour",
+                                    "maxzoom": 22,
+                                    "minzoom": 0,
+                                    "source": "mapbox.mapbox-terrain-v2"
+                                },
+                                {
+                                    "id": "depth",
+                                    "maxzoom": 7,
+                                    "minzoom": 0,
+                                    "source": "mapbox.mapbox-bathymetry-v2"
+                                }
+                            ],
+                            "worldview_default": "US",
+                            "worldview_options": {
+                                "AR": "Argentina",
+                                "CN": "China",
+                                "IN": "India",
+                                "JP": "Japan",
+                                "MA": "Morocco",
+                                "RS": "Serbia",
+                                "RU": "Russia",
+                                "TR": "Turkey",
+                                "US": "United States"
+                            }
+                        }
+                    }
                     'mapbox': {
                         'type': "vector",
                         'url': "mapbox://mapbox.mapbox-streets-v8"
