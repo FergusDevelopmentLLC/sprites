@@ -2,75 +2,84 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Mapbox GL JS Custom Sprites Example</title>
-    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
-    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
-    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+    <title>Mapbox Sprite Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css" rel="stylesheet" />
     <style>
         body { margin: 0; padding: 0; }
         #map { position: absolute; top: 0; bottom: 0; width: 100%; }
     </style>
 </head>
 <body>
-<div id="map"></div>
-<script>
-  mapboxgl.accessToken = 'pk.eyJ1Ijoid2lsbGNhcnRlciIsImEiOiJjbHhoc29lZHUxZTFrMmtvZ3A5a294YmRzIn0.Ku7Nk7ydXtJkB0PikcBppw';
+    <div id="map"></div>
+    <script>
+        // Set the Mapbox access token
+        mapboxgl.accessToken = 'pk.eyJ1Ijoid2lsbGNhcnRlciIsImEiOiJjbHhoc29lZHUxZTFrMmtvZ3A5a294YmRzIn0.Ku7Nk7ydXtJkB0PikcBppw';
 
-  const map = new mapboxgl.Map({
-    container: 'map',
-    style: 'mapbox://styles/mapbox/streets-v11', // Use the default Mapbox style URL
-    center: [-97.7431, 30.2672], // Austin, TX coordinates
-    zoom: 12, // Starting zoom level
-    sprite: 'https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/sprites', // Correct sprite URL without file extension
-    glyphs: 'mapbox://fonts/mapbox/{fontstack}/{range}.pbf'
-  });
-
-  map.on('load', () => {
-    // Add custom sprite if needed
-    map.loadImage(
-      'https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/sprites.png', // Sprite image URL
-      (error, image) => {
-        if (error) throw error;
-        if (!map.hasImage('4_998_998_999_1_7_1')) {
-          map.addImage('4_998_998_999_1_7_1', image, { pixelRatio: 1 });
-        }
-      }
-    );
-
-    // Adding a custom icon source
-    map.addSource('custom-icon-source', {
-      type: 'geojson',
-      data: {
-        type: 'FeatureCollection',
-        features: [
-          {
-            type: 'Feature',
-            geometry: {
-              type: 'Point',
-              coordinates: [-97.7431, 30.2672] // Position the icon at Austin, TX
+        // Initialize the map
+        const map = new mapboxgl.Map({
+            container: 'map', // Container ID
+            style: {
+                "version": 8,
+                "sources": {
+                    "mapbox": {
+                        "type": "vector",
+                        "url": "mapbox://mapbox.mapbox-streets-v8"
+                    }
+                },
+                "layers": [
+                    {
+                        "id": "background",
+                        "type": "background",
+                        "paint": {
+                            "background-color": "#ddeeff"
+                        }
+                    },
+                    {
+                        "id": "water",
+                        "source": "mapbox",
+                        "source-layer": "water",
+                        "type": "fill",
+                        "paint": {
+                            "fill-color": "#a4c2f4"
+                        }
+                    },
+                    {
+                        "id": "custom-sprite-layer",
+                        "type": "symbol",
+                        "source": {
+                            "type": "geojson",
+                            "data": {
+                                "type": "FeatureCollection",
+                                "features": [
+                                    {
+                                        "type": "Feature",
+                                        "geometry": {
+                                            "type": "Point",
+                                            "coordinates": [-122.486052, 37.830348] // Example coordinates
+                                        },
+                                        "properties": {
+                                            "icon": "custom-icon" // Use your sprite name here
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "layout": {
+                            "icon-image": "{icon}",
+                            "icon-size": 0.5
+                        }
+                    }
+                ],
+                "sprite": "https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/sprites"
             },
-            properties: {
-              icon: '4_998_998_999_1_7_1' // Ensure this matches the name in your JSON file
-            }
-          }
-        ]
-      }
-    });
+            center: [-122.486052, 37.830348], // Initial center [lng, lat]
+            zoom: 10 // Initial zoom level
+        });
 
-    // Adding a custom icon layer
-    map.addLayer({
-      id: 'custom-icons-layer',
-      type: 'symbol',
-      source: 'custom-icon-source',
-      layout: {
-        'icon-image': '{icon}', // Use the icon property from the feature
-        'icon-size': 1.5 // Increase size for visibility
-      }
-    });
-
-    // Add navigation control (zoom and rotate buttons)
-    map.addControl(new mapboxgl.NavigationControl());
-  });
-</script>
+        // Add navigation controls to the map
+        map.addControl(new mapboxgl.NavigationControl());
+    </script>
 </body>
-</html>
+</html
