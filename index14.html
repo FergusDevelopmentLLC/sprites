@@ -25,34 +25,13 @@
                 "name": "Mapbox Streets with Custom Sprites",
                 "sprite": "https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/sprites", // Custom sprite URL
                 "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
-                "sources": {
-                    "mapbox": {
-                        "type": "vector",
-                        "url": "mapbox://mapbox.mapbox-streets-v8"
-                    }
-                },
-                "layers": [] // Empty layer array; we'll switch to full streets style later
-            },
-            center: [-97.7431, 30.2672], // Center the map on Austin, TX
-            zoom: 12 // Adjusted zoom level for a better view of the city
-        });
-
-        // Add navigation controls to the map
-        map.addControl(new mapboxgl.NavigationControl());
-
-        // Listen for the style to load, then add the custom layer
-        map.on('style.load', function() {
-            // Add all layers from the Mapbox Streets style with custom sprite
-            map.setStyle({
-                "version": 8,
-                "sprite": "https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/sprites", // Correctly set the sprite URL here
-                "sources": {
+                "sources": [
                     "mapbox": {
                         "type": "vector",
                         "url": "mapbox://mapbox.mapbox-streets-v8"
                     },
                     "custom-points": {
-                        'type': 'FeatureCollection',
+                        'type': 'vector',
                         'features': [
                             {
                                 'type': 'Feature',
@@ -66,22 +45,21 @@
                             }
                         ]
                     },
-                },
-                "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
-                "layers": [] // Use the base style layers from streets-v12
-            });
-          
-            if (!map.getLayer('custom-sprite-layer')) {
-                map.addLayer({
-                    'id': 'custom-sprite-layer',
-                    'type': 'symbol',
-                    'source': 'custom-points',
-                    'layout': {
-                        'icon-image': '{icon}',
-                        'icon-size': 1
+                ],
+                "layers": [
+                    {
+                        'id': 'custom-sprite-layer',
+                        'type': 'symbol',
+                        'source': 'custom-points',
+                        'layout': {
+                            'icon-image': '{icon}',
+                            'icon-size': 1
+                        }
                     }
-                });
-            }
+                ] // Empty layer array; we'll switch to full streets style later
+            },
+            center: [-97.7431, 30.2672], // Center the map on Austin, TX
+            zoom: 12 // Adjusted zoom level for a better view of the city
         });
     </script>
 </body>
