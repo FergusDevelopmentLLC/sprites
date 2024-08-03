@@ -83,15 +83,18 @@
                     }
                 });
 
-                map.addLayer({
-                    'id': 'custom-sprite-layer',
-                    'type': 'symbol',
-                    'source': 'custom-points',
-                    'layout': {
-                        'icon-image': '{icon}',
-                        'icon-size': 1
-                    }
-                });
+                // Check if the layer already exists before adding it
+                if (!map.getLayer('custom-sprite-layer')) {
+                    map.addLayer({
+                        'id': 'custom-sprite-layer',
+                        'type': 'symbol',
+                        'source': 'custom-points',
+                        'layout': {
+                            'icon-image': '{icon}',
+                            'icon-size': 1
+                        }
+                    });
+                }
             });
         });
     </script>
