@@ -18,12 +18,13 @@
 
   const map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/streets-v11', // Corrected: Use the URL directly
+    style: 'mapbox://styles/mapbox/streets-v11', // Basemap style
     center: [-97.7431, 30.2672], // Austin, TX coordinates
-    zoom: 12 // Adjusted zoom level to better view the city
+    zoom: 12 // Starting zoom level
   });
 
   map.on('load', () => {
+    // Adding a custom icon source
     map.addSource('custom-icon-source', {
       type: 'geojson',
       data: {
@@ -43,15 +44,19 @@
       }
     });
 
+    // Adding a custom icon layer
     map.addLayer({
       id: 'custom-icons-layer',
       type: 'symbol',
       source: 'custom-icon-source',
       layout: {
         'icon-image': '{icon}', // Use the icon property from the feature
-        'icon-size': 1
+        'icon-size': 1.5 // Increase size for visibility
       }
     });
+
+    // Add navigation control (zoom and rotate buttons)
+    map.addControl(new mapboxgl.NavigationControl());
   });
 </script>
 </body>
