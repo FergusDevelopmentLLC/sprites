@@ -18,31 +18,23 @@
 
   const map = new mapboxgl.Map({
     container: 'map',
-    style: {
-      version: 8,
-      sources: {
-        'mapbox-streets': {
-          type: 'vector',
-          url: 'mapbox://mapbox.mapbox-streets-v8'
-        }
-      },
-      layers: [
-        {
-          id: 'base-layer',
-          type: 'background',
-          paint: {
-            'background-color': '#f8f9fa'
-          }
-        }
-      ],
-      sprite: 'https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/sprites', // Correct sprite URL
-      glyphs: 'mapbox://fonts/mapbox/{fontstack}/{range}.pbf'
-    },
+    style: 'mapbox://styles/mapbox/streets-v11', // Use the default Mapbox style URL
     center: [-97.7431, 30.2672], // Austin, TX coordinates
     zoom: 12 // Starting zoom level
   });
 
   map.on('load', () => {
+    // Add custom sprite if needed
+    map.loadImage(
+      'https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/sprites.png', // Sprite image URL
+      (error, image) => {
+        if (error) throw error;
+        if (!map.hasImage('4_998_998_999_1_7_1')) {
+          map.addImage('4_998_998_999_1_7_1', image, { pixelRatio: 1 });
+        }
+      }
+    );
+
     // Adding a custom icon source
     map.addSource('custom-icon-source', {
       type: 'geojson',
@@ -74,7 +66,7 @@
       }
     });
 
-    // Optional: Add navigation control (zoom and rotate buttons)
+    // Add navigation control (zoom and rotate buttons)
     map.addControl(new mapboxgl.NavigationControl());
   });
 </script>
