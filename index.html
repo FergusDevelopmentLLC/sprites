@@ -18,24 +18,8 @@
 
   const map = new mapboxgl.Map({
     container: 'map',
-    style: {
-      version: 8,
-      sources: {
-        'mapbox-streets': {
-          type: 'raster',
-          url: 'mapbox://mapbox.streets-v11'
-        }
-      },
-      layers: [
-        {
-          id: 'base-layer',
-          type: 'raster',
-          source: 'mapbox-streets'
-        }
-      ],
-      sprite: 'https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/sprites', // Ensure this is set correctly
-      glyphs: 'mapbox://fonts/mapbox/{fontstack}/{range}.pbf'
-    },
+    style: 'mapbox://styles/mapbox/streets-v11', // Use the default Mapbox style URL
+    sprite: 'https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/sprites', // Ensure this is set correctly
     center: [-97.7431, 30.2672], // Austin, TX coordinates
     zoom: 12 // Starting zoom level
   });
