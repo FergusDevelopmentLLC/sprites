@@ -26,11 +26,13 @@
                 "sprite": "https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/sprites", // Custom sprite URL
                 "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
                 "sources": [
-                    "mapbox": {
-                        "type": "vector",
-                        "url": "mapbox://mapbox.mapbox-streets-v8"
+                    {
+                       'id': 'mapbox',
+                        'type': "vector",
+                        'url': "mapbox://mapbox.mapbox-streets-v8"
                     },
-                    "custom-points": {
+                    {
+                        'id': 'custom-points',
                         'type': 'vector',
                         'features': [
                             {
@@ -44,7 +46,7 @@
                                 }
                             }
                         ]
-                    },
+                    }
                 ],
                 "layers": [
                     {
@@ -56,7 +58,7 @@
                             'icon-size': 1
                         }
                     }
-                ] // Empty layer array; we'll switch to full streets style later
+                ]
             },
             center: [-97.7431, 30.2672], // Center the map on Austin, TX
             zoom: 12 // Adjusted zoom level for a better view of the city
