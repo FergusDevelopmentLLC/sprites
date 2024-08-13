@@ -43,6 +43,89 @@
     zoom: 9 // starting zoom
   });
 
+  // Use the 'styledata' event to overwrite the sprite property
+  map.on("styledata", () => {
+    map.setStyle({
+      ...map.getStyle(),
+      sprite: "https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/v3/generated/sprites",
+    });
+  });
+
+  // Use the 'load' event to add the points source
+  map.on("load", () => {
+    // Add a source for the points
+    map.addSource('points', {
+      'type': 'geojson',
+      'data': {
+        'type': 'FeatureCollection',
+        'features': [
+          {
+            'type': 'Feature',
+            'geometry': {
+              'type': 'Point',
+              'coordinates': [-97.7760, 30.2672] // Point 1, approx. 5 miles west
+            },
+            'properties': {
+              'icon': 'mz_10_7' // Icon for Point 1
+            }
+          },
+          {
+            'type': 'Feature',
+            'geometry': {
+              'type': 'Point',
+              'coordinates': [-97.7102, 30.2672] // Point 2, approx. 5 miles east
+            },
+            'properties': {
+              'icon': 'p_13_12' // Icon for Point 2
+            }
+          },
+          {
+            'type': 'Feature',
+            'geometry': {
+              'type': 'Point',
+              'coordinates': [-97.7431, 30.2999] // Point 3, approx. 5 miles north
+            },
+            'properties': {
+              'icon': 'mz_19_7' // Icon for Point 3
+            }
+          },
+          {
+            'type': 'Feature',
+            'geometry': {
+              'type': 'Point',
+              'coordinates': [-97.7431, 30.2345] // Point 4, approx. 5 miles south
+            },
+            'properties': {
+              'icon': 'mz_3_8' // Icon for Point 4
+            }
+          },
+          {
+            'type': 'Feature',
+            'geometry': {
+              'type': 'Point',
+              'coordinates': [-97.7760, 30.2345] // Point 5, approx. 5 miles southwest
+            },
+            'properties': {
+              'icon': 'mz_25_3' // Icon for Point 5
+            }
+          }
+        ]
+      }
+    });
+
+    // Add a layer for the points using the icons
+    map.addLayer({
+      'id': 'points',
+      'type': 'symbol',
+      'source': 'points',
+      'layout': {
+        'icon-image': ['get', 'icon'],
+        'icon-allow-overlap': true,
+        'icon-size': 1 // Adjust the size as needed
+      }
+    });
+  });
+
   // Create a control for switching basemaps
   var layerList = document.createElement('div');
   layerList.className = 'mapboxgl-ctrl mapboxgl-ctrl-group';
@@ -62,14 +145,6 @@
       map.setStyle('mapbox://styles/mapbox/' + layer.id);
     };
     layerList.appendChild(link);
-  });
-
-  map.on("load", () => {
-    map.setStyle({
-      ...map.getStyle(),
-      sprite:
-        "https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/v2/sprites",
-    });
   });
 
   // Add the layer control to the map

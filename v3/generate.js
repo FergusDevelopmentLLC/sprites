@@ -56,9 +56,8 @@ const SVG_STAR_7PT = (style) => {
 };
 
 // Function to generate SVG sprite sheet and JSON mapping
-const generateSpriteSheet = (styles) => {
+const generateSpriteSheet = (styles, scaleFactor = 1) => {
   let svgContent = '';
-  const shapeGap = 5;
   let currentY = 0;
   let currentRowHeight = 0;
 
@@ -85,24 +84,43 @@ const generateSpriteSheet = (styles) => {
         (style.width !== groupedStyles[shapeType][index - 1].width ||
           style.height !== groupedStyles[shapeType][index - 1].height)
       ) {
-        currentY += currentRowHeight + shapeGap;
+        currentY += currentRowHeight;
         currentX = 0;
         currentRowHeight = 0;
       }
 
+      const scaledWidth = style.width * scaleFactor;
+      const scaledHeight = style.height * scaleFactor;
+
       let svgElement;
       switch (style.shape) {
         case 'circle':
-          svgElement = SVG_CIRCLE(style);
+          svgElement = SVG_CIRCLE({
+            ...style,
+            width: scaledWidth,
+            height: scaledHeight,
+          });
           break;
         case 'square':
-          svgElement = SVG_SQUARE(style);
+          svgElement = SVG_SQUARE({
+            ...style,
+            width: scaledWidth,
+            height: scaledHeight,
+          });
           break;
         case 'triangle':
-          svgElement = SVG_TRIANGLE(style);
+          svgElement = SVG_TRIANGLE({
+            ...style,
+            width: scaledWidth,
+            height: scaledHeight,
+          });
           break;
         case 'star-7pt':
-          svgElement = SVG_STAR_7PT(style);
+          svgElement = SVG_STAR_7PT({
+            ...style,
+            width: scaledWidth,
+            height: scaledHeight,
+          });
           break;
         default:
           throw new Error(`Unknown shape type: ${style.shape}`);
@@ -114,19 +132,19 @@ const generateSpriteSheet = (styles) => {
       // Add each matching_src_attributes as a key in the JSON mapping
       style.matching_src_attributes.forEach((attribute) => {
         jsonMapping[attribute] = {
-          width: style.width,
-          height: style.height,
+          width: scaledWidth,
+          height: scaledHeight,
           x: currentX,
           y: currentY,
-          pixelRatio: 1,
+          pixelRatio: scaleFactor,
         };
       });
 
-      currentX += style.width + shapeGap;
-      currentRowHeight = Math.max(currentRowHeight, style.height);
+      currentX += scaledWidth;
+      currentRowHeight = Math.max(currentRowHeight, scaledHeight);
     });
 
-    currentY += currentRowHeight + shapeGap;
+    currentY += currentRowHeight;
   };
 
   // Add each shape type to the sprite sheet
@@ -137,7 +155,7 @@ const generateSpriteSheet = (styles) => {
 
   const totalWidth = Math.max(
     ...Object.values(groupedStyles).map((group) =>
-      group.reduce((sum, s) => sum + s.width, 0) + (group.length - 1) * shapeGap
+      group.reduce((sum, s) => sum + s.width * scaleFactor, 0)
     )
   );
 
@@ -149,17 +167,20 @@ const generateSpriteSheet = (styles) => {
 };
 
 // Generate sprite sheet and JSON mapping
-const { svgString, jsonMapping } = generateSpriteSheet(styles);
+const { svgString: svgString1x, jsonMapping: jsonMapping1x } = generateSpriteSheet(styles, 1);
+const { svgString: svgString2x, jsonMapping: jsonMapping2x } = generateSpriteSheet(styles, 2);
 
-// Write the SVG to a file
-fs.writeFileSync('generated/sprites.svg', svgString, 'utf8');
+// Write the SVG and JSON to files for 1x
+fs.writeFileSync('generated/sprites.svg', svgString1x, 'utf8');
+fs.writeFileSync('generated/sprites.json', JSON.stringify(jsonMapping1x, null, 2), 'utf8');
 
-// Write the JSON mapping to a file
-fs.writeFileSync('generated/sprites.json', JSON.stringify(jsonMapping, null, 2), 'utf8');
+// Write the SVG and JSON to files for 2x
+fs.writeFileSync('generated/sprites@2x.svg', svgString2x, 'utf8');
+fs.writeFileSync('generated/sprites@2x.json', JSON.stringify(jsonMapping2x, null, 2), 'utf8');
 
-// Convert SVG to PNG without specifying width and height
+// Convert SVG to PNG for 1x
 svgToImg
-  .from(svgString)
+  .from(svgString1x)
   .toPng({
     path: 'generated/sprites.png',
   })
@@ -168,4 +189,17 @@ svgToImg
   })
   .catch((err) => {
     console.error('Error converting SVG to PNG:', err);
+  });
+
+// Convert SVG to PNG for 2x
+svgToImg
+  .from(svgString2x)
+  .toPng({
+    path: 'generated/sprites@2x.png',
+  })
+  .then(() => {
+    console.log('Sprite sheet @2x converted to PNG successfully!');
+  })
+  .catch((err) => {
+    console.error('Error converting SVG to PNG @2x:', err);
   });
