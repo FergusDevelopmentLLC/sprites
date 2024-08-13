@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapbox Basemap Control</title>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #map {
+            width: 100vw;
+            height: 100vh;
+        }
+        .mapboxgl-ctrl-group {
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+        .mapboxgl-ctrl-group button {
+            width: 150px;
+            padding: 5px;
+            font-size: 14px;
+            text-align: left;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+<div id="map"></div>
+
+<script>
+  // Set your Mapbox access token here
+  mapboxgl.accessToken = 'pk.eyJ1Ijoid2lsbGNhcnRlciIsImEiOiJjaWdjdHdkNzYwZGp3dTVtMGhhY2ZkaDloIn0.9qTtVfFnKXVe82B-6mJbqQ';
+
+  // Initialize the map
+  var map = new mapboxgl.Map({
+    container: 'map', // container ID
+    style: 'mapbox://styles/mapbox/outdoors-v11', // initial style
+    center: [-97.7431, 30.2672], // starting position [lng, lat]
+    zoom: 9 // starting zoom
+  });
+
+  // Create a control for switching basemaps
+  var layerList = document.createElement('div');
+  layerList.className = 'mapboxgl-ctrl mapboxgl-ctrl-group';
+
+  var layers = [
+    { id: 'outdoors-v11', label: 'Outdoors' },
+    { id: 'streets-v11', label: 'Streets' },
+    { id: 'satellite-streets-v11', label: 'Satellite Streets' },
+    { id: 'light-v11', label: 'Light' },
+    { id: 'dark-v11', label: 'Dark' }
+  ];
+
+  layers.forEach(function(layer) {
+    var link = document.createElement('button');
+    link.textContent = layer.label;
+    link.onclick = function() {
+      map.setStyle('mapbox://styles/mapbox/' + layer.id);
+    };
+    layerList.appendChild(link);
+  });
+
+  map.on("load", () => {
+    map.setStyle({
+      ...map.getStyle(),
+      sprite:
+        "https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/v2/sprites",
+    });
+  });
+
+  // Add the layer control to the map
+  map.addControl({
+    onAdd: function() {
+      var container = document.createElement('div');
+      container.appendChild(layerList);
+      return container;
+    },
+    onRemove: function() {
+      layerList.parentNode.removeChild(layerList);
+    }
+  }, 'top-right');
+</script>
+</body>
+</html>
