@@ -14,11 +14,11 @@ function readIconsFromFile() {
 // Function to generate GeoJSON based on the icons array
 function generateGeoJSON(icons) {
 
-  const startX = -100.32798463778342;
-  const startY = 31.838664510901136;
+  const startX = -98.6295321778425;
+  const startY = 30.91845994698453;
   const deltaX = 0.072; // Approx 5 miles in longitude
   const deltaY = -0.045; // Approx 5 miles in latitude
-  const maxX = -94.55324627398436;
+  const maxX = -97.22504264366061;
 
   let x = startX;
   let y = startY;
