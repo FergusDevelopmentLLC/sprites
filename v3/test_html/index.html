@@ -35,85 +35,21 @@
   // Set your Mapbox access token here
   mapboxgl.accessToken = 'pk.eyJ1Ijoid2lsbGNhcnRlciIsImEiOiJjaWdjdHdkNzYwZGp3dTVtMGhhY2ZkaDloIn0.9qTtVfFnKXVe82B-6mJbqQ';
 
-  // Initialize the map
-  var map = new mapboxgl.Map({
-    container: 'map', // container ID
-    style: 'mapbox://styles/mapbox/outdoors-v11', // initial style
-    center: [-97.7431, 30.2672], // starting position [lng, lat]
-    zoom: 9 // starting zoom
-  });
+  // Function to add the points source and layer
+  function addPointsSourceAndLayer() {
+    // Add the points source from the external GeoJSON file
+    if (!map.getSource('points')) {
+      map.addSource('points', {
+        'type': 'geojson',
+        'data': './points.geojson' // Path to the external GeoJSON file
+      });
+    }
 
-  // Use the 'styledata' event to overwrite the sprite property
-  map.on("styledata", () => {
-    map.setStyle({
-      ...map.getStyle(),
-      sprite: "https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/v3/generated/sprites",
-    });
-  });
+    // Add or update the points layer
+    if (map.getLayer('points')) {
+      map.removeLayer('points');
+    }
 
-  // Use the 'load' event to add the points source
-  map.on("load", () => {
-    // Add a source for the points
-    map.addSource('points', {
-      'type': 'geojson',
-      'data': {
-        'type': 'FeatureCollection',
-        'features': [
-          {
-            'type': 'Feature',
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [-97.7760, 30.2672] // Point 1, approx. 5 miles west
-            },
-            'properties': {
-              'icon': 'mz_10_7' // Icon for Point 1
-            }
-          },
-          {
-            'type': 'Feature',
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [-97.7102, 30.2672] // Point 2, approx. 5 miles east
-            },
-            'properties': {
-              'icon': 'p_13_12' // Icon for Point 2
-            }
-          },
-          {
-            'type': 'Feature',
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [-97.7431, 30.2999] // Point 3, approx. 5 miles north
-            },
-            'properties': {
-              'icon': 'mz_19_7' // Icon for Point 3
-            }
-          },
-          {
-            'type': 'Feature',
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [-97.7431, 30.2345] // Point 4, approx. 5 miles south
-            },
-            'properties': {
-              'icon': 'mz_3_8' // Icon for Point 4
-            }
-          },
-          {
-            'type': 'Feature',
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [-97.7760, 30.2345] // Point 5, approx. 5 miles southwest
-            },
-            'properties': {
-              'icon': 'mz_25_3' // Icon for Point 5
-            }
-          }
-        ]
-      }
-    });
-
-    // Add a layer for the points using the icons
     map.addLayer({
       'id': 'points',
       'type': 'symbol',
@@ -123,6 +59,28 @@
         'icon-allow-overlap': true,
         'icon-size': 1 // Adjust the size as needed
       }
+    });
+  }
+
+  // Initialize the map
+  var map = new mapboxgl.Map({
+    container: 'map', // container ID
+    style: 'mapbox://styles/mapbox/outdoors-v11', // initial style
+    center: [-97.7431, 30.2672], // starting position [lng, lat]
+    zoom: 9 // starting zoom
+  });
+
+  // Handle 'load' event to set the sprite and add the points layer
+  map.on("load", () => {
+
+    // Modify the sprite URL
+    var style = map.getStyle();
+    style.sprite = "https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/v3/generated/sprites";
+    map.setStyle(style);
+
+    // Wait for the new style to fully load and then re-add the points source and layer
+    map.once('styledata', () => {
+      addPointsSourceAndLayer();
     });
   });
 
@@ -142,7 +100,21 @@
     var link = document.createElement('button');
     link.textContent = layer.label;
     link.onclick = function() {
+      // Set a new style without triggering an endless loop
       map.setStyle('mapbox://styles/mapbox/' + layer.id);
+
+      // Wait for the new style to load and then modify the sprite and re-add the points layer
+      map.once('style.load', function() {
+        // Modify the sprite URL
+        var style = map.getStyle();
+        style.sprite = "https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/v3/generated/sprites";
+        map.setStyle(style);
+
+        // Wait for the new style to fully load and then re-add the points source and layer
+        map.once('styledata', () => {
+          addPointsSourceAndLayer();
+        });
+      });
     };
     layerList.appendChild(link);
   });
