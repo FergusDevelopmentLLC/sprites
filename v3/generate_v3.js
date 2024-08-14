@@ -146,7 +146,7 @@ const generateSpriteSheet = (styles, scaleFactor = 1, offsetY = 0) => {
           width: scaledWidth,
           height: scaledHeight,
           x: currentX,
-          y: currentY,
+          y: currentY + defaultSpriteHeight, // Adjust by the default sprite height
           pixelRatio: scaleFactor,
         };
       });
