@@ -37,65 +37,11 @@
 
   // Function to add the points source and layer
   function addPointsSourceAndLayer() {
-    // Add the points source
+    // Add the points source from the external GeoJSON file
     if (!map.getSource('points')) {
       map.addSource('points', {
         'type': 'geojson',
-        'data': {
-          'type': 'FeatureCollection',
-          'features': [
-            {
-              'type': 'Feature',
-              'geometry': {
-                'type': 'Point',
-                'coordinates': [-97.7760, 30.2672] // Point 1, approx. 5 miles west
-              },
-              'properties': {
-                'icon': 'mz_10_7' // Icon for Point 1
-              }
-            },
-            {
-              'type': 'Feature',
-              'geometry': {
-                'type': 'Point',
-                'coordinates': [-97.7102, 30.2672] // Point 2, approx. 5 miles east
-              },
-              'properties': {
-                'icon': 'p_13_12' // Icon for Point 2
-              }
-            },
-            {
-              'type': 'Feature',
-              'geometry': {
-                'type': 'Point',
-                'coordinates': [-97.7431, 30.2999] // Point 3, approx. 5 miles north
-              },
-              'properties': {
-                'icon': 'mz_19_7' // Icon for Point 3
-              }
-            },
-            {
-              'type': 'Feature',
-              'geometry': {
-                'type': 'Point',
-                'coordinates': [-97.7431, 30.2345] // Point 4, approx. 5 miles south
-              },
-              'properties': {
-                'icon': 'mz_3_8' // Icon for Point 4
-              }
-            },
-            {
-              'type': 'Feature',
-              'geometry': {
-                'type': 'Point',
-                'coordinates': [-97.7760, 30.2345] // Point 5, approx. 5 miles southwest
-              },
-              'properties': {
-                'icon': 'mz_25_3' // Icon for Point 5
-              }
-            }
-          ]
-        }
+        'data': './points.geojson' // Path to the external GeoJSON file
       });
     }
 
