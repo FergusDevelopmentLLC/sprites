@@ -65,62 +65,20 @@
   // Initialize the map
   var map = new mapboxgl.Map({
     container: 'map', // container ID
-    style: 'mapbox://styles/wilcotxdash/cm0h5e8hg002i01pw7bbedy4t', // initial style
+    style: 'mapbox://styles/mapbox/outdoors-v11', // initial style
     center: [-97.7431, 30.2672], // starting position [lng, lat]
     zoom: 9 // starting zoom
   });
 
-  // Handle 'load' event to set the sprite and add the points layer
   map.on("load", () => {
-    addPointsSourceAndLayer();
+    var style = map.getStyle();
+    style.sprite = "https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/v3/generated/sprites";
+    map.setStyle(style);
+    map.once('styledata', () => {
+      addPointsSourceAndLayer();
+    });
   });
 
-  // Create a control for switching basemaps
-  // var layerList = document.createElement('div');
-  // layerList.className = 'mapboxgl-ctrl mapboxgl-ctrl-group';
-  //
-  // var layers = [
-  //   { id: 'outdoors-v11', label: 'Outdoors' },
-  //   { id: 'streets-v11', label: 'Streets' },
-  //   { id: 'satellite-streets-v11', label: 'Satellite Streets' },
-  //   { id: 'light-v11', label: 'Light' },
-  //   { id: 'dark-v11', label: 'Dark' }
-  // ];
-
-  // layers.forEach(function(layer) {
-  //   var link = document.createElement('button');
-  //   link.textContent = layer.label;
-  //   link.onclick = function() {
-  //     // Set a new style without triggering an endless loop
-  //     map.setStyle('mapbox://styles/mapbox/' + layer.id);
-  //
-  //     // Wait for the new style to load and then modify the sprite and re-add the points layer
-  //     map.once('style.load', function() {
-  //       // Modify the sprite URL
-  //       var style = map.getStyle();
-  //       style.sprite = "https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/v3/generated/sprites";
-  //       map.setStyle(style);
-  //
-  //       // Wait for the new style to fully load and then re-add the points source and layer
-  //       map.once('styledata', () => {
-  //         addPointsSourceAndLayer();
-  //       });
-  //     });
-  //   };
-  //   layerList.appendChild(link);
-  // });
-
-  // Add the layer control to the map
-  // map.addControl({
-  //   onAdd: function() {
-  //     var container = document.createElement('div');
-  //     container.appendChild(layerList);
-  //     return container;
-  //   },
-  //   onRemove: function() {
-  //     layerList.parentNode.removeChild(layerList);
-  //   }
-  // }, 'top-right');
 </script>
 </body>
 
