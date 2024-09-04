@@ -35,7 +35,7 @@
     20
   ],
   "zoom": 2,
-  "sprite": "https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/v3/generated/sprites",
+  "sprite": "https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/v5/generated/sprites",
   "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
   "layers": [
     {
