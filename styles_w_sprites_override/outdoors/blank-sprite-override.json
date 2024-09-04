@@ -1,0 +1,27 @@
+{
+  "version": 8,
+  "name": "Blank",
+  "metadata": {
+    "mapbox:autocomposite": true,
+    "mapbox:type": "template",
+    "mapbox:sdk-support": {
+      "js": "3.6.0",
+      "android": "11.6.0",
+      "ios": "11.6.0"
+    }
+  },
+  "sources": {},
+  "sprite": "https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/v5/generated/sprites",
+  "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+  "projection": {
+    "name": "globe"
+  },
+  "layers": [],
+  "created": "2024-09-04T21:02:07.435Z",
+  "modified": "2024-09-04T21:02:16.515Z",
+  "id": "cm0ocgkzv01d501pw7issdknp",
+  "owner": "wilcotxdash",
+  "visibility": "public",
+  "protected": false,
+  "draft": false
+}
