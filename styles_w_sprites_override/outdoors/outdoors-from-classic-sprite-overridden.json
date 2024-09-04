@@ -308,7 +308,7 @@
       "type": "vector"
     }
   },
-  "sprite": "https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/v3/generated/sprites",
+  "sprite": "https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/v4/generated/sprites",
   "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
   "projection": {"name": "globe"},
   "layers": [
