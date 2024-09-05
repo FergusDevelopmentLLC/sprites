@@ -6,7 +6,7 @@ const path = require('path');
 const OUTPUT_SPRITE_PNG = 'generated/satellite-streets-v11/sprite@2x.png';
 const OUTPUT_SPRITE_JSON = 'generated/satellite-streets-v11/sprite@2x.json';
 const OUTPUT_ICON_FOLDER = 'generated/satellite-streets-v11/icons-testing-sprite@2x/';
-
+//refactor
 // Function to delete all files in the output folder
 const clearOutputFolder = (folder) => {
   if (fs.existsSync(folder)) {
