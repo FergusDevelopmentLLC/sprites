@@ -1,8 +1,8 @@
 const fs = require('fs');
 
 // Constants for input and output paths
-const INPUT_ICONS_TXT = 'generated/light-v10/icons/icons.txt';
-const OUTPUT_GEOJSON_POINTS = 'generated/light-v10/geojson/points.geojson';
+const INPUT_ICONS_TXT = 'generated/dark-v10/icons/icons.txt';
+const OUTPUT_GEOJSON_POINTS = 'generated/dark-v10/geojson/points.geojson';
 
 // Function to read icons from icons.txt
 function readIconsFromFile() {

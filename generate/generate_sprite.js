@@ -3,10 +3,10 @@ const Jimp = require('jimp');
 const svgToImg = require('svg-to-img');
 
 // Constants for input and output paths
-const INPUT_SPRITE_PNG = 'default_sprites/light-v10/sprite@2x.png';
-const INPUT_SPRITE_JSON = 'default_sprites/light-v10/sprite@2x.json';
-const OUTPUT_SPRITE_PNG = 'generated/light-v10/sprite@2x.png';
-const OUTPUT_SPRITE_JSON = 'generated/light-v10/sprite@2x.json';
+const INPUT_SPRITE_PNG = 'default_sprites/dark-v10/sprite@2x.png';
+const INPUT_SPRITE_JSON = 'default_sprites/dark-v10/sprite@2x.json';
+const OUTPUT_SPRITE_PNG = 'generated/dark-v10/sprite@2x.png';
+const OUTPUT_SPRITE_JSON = 'generated/dark-v10/sprite@2x.json';
 
 // Set scaleFactor based on whether INPUT_SPRITE_PNG contains "@2x"
 const scaleFactor = INPUT_SPRITE_PNG.includes('@2x') ? 2 : 1;

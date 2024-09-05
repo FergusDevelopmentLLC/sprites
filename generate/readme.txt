@@ -27,8 +27,6 @@ sprite@2x.json
 There are 2 versions of the sprite. sprite.png and sprite.json is for the low resolution sprite. sprite@2x.png and sprite@2x.json are for the high resolution sprite.
 The mapbox map will pick the appropriate sprite based on the device resolution. You have to generate both versions of the sprite.
 
-Create the folders to hold the generated sprites and files for testing.
-
 sprites\generate\wells_styles.json - this contains the descriptions of the custom icons you want to add to the sprite, like:
 {
     "style_ndx": 1,
@@ -42,6 +40,8 @@ sprites\generate\wells_styles.json - this contains the descriptions of the custo
       "mz_10_7"
     ]
 }
+
+Create the folders to hold the generated sprites and files for testing.
 
 sprites\generate\generated\light-v10
 sprites\generate\generated\light-v10\geojson
@@ -104,7 +104,7 @@ Cleared all files from generated/light-v10/icons-testing-sprite@2x/
 Rendered icon for airfield-15: saved as icon_1_airfield-15.png
 Rendered icon for airport-15: saved as icon_2_airport-15.png
 ---
-Check the icons in sprites\generate\generated\light-v10\icons-testing-sprite@2x to see if they are correct.
+Check the icons in sprites\generate\generated\light-v10\icons-testing-sprite@2x to see if they are correct. The icons should be doubled in size.
 
 Modify sprites\generate\generate_icons.js to build a list of all the names of the icons in the generated sprite.
 const INPUT_SPRITES_JSON = 'generated/light-v10/sprite.json';
@@ -120,7 +120,7 @@ Execute generate_geojson.js. This will create sprites\generate\generated\light-v
 
 Now we are ready to test on a test map.
 
-Copy the generated sprite files to thier final test locations...
+Copy the generated sprite files to their final test locations...
 sprites\generate\generated\light-v10\sprite.json
 sprites\generate\generated\light-v10\sprite.png
 sprites\generate\generated\light-v10\sprite@2x.json
