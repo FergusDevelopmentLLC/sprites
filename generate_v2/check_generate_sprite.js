@@ -2,11 +2,12 @@ const fs = require('fs');
 const Jimp = require('jimp');
 const path = require('path');
 const { basemap } = require('./constants');
+const { spriteVersion } = require('./constants');
 
 // Constants for output paths
-const OUTPUT_SPRITE_PNG = `generated/${basemap}/sprite@2x.png`;
-const OUTPUT_SPRITE_JSON = `generated/${basemap}/sprite@2x.json`;
-const OUTPUT_ICON_FOLDER = `generated/${basemap}/icons-testing-sprite@2x/`;
+const OUTPUT_SPRITE_PNG = `generated/${basemap}/${spriteVersion}.png`;
+const OUTPUT_SPRITE_JSON = `generated/${basemap}/${spriteVersion}.json`;
+const OUTPUT_ICON_FOLDER = `generated/${basemap}/icons-testing-${spriteVersion}/`;
 
 // Function to delete all files in the output folder
 const clearOutputFolder = (folder) => {
