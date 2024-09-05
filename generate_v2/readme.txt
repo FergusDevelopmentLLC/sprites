@@ -41,45 +41,17 @@ sprites\generate\wells_styles.json - this contains the descriptions of the custo
     ]
 }
 
-Create the folders to hold the generated sprites and files for testing.
-
-sprites\generate\generated\light-v10
-sprites\generate\generated\light-v10\geojson
-sprites\generate\generated\light-v10\icons
-sprites\generate\generated\light-v10\icons-testing-sprite
-sprites\generate\generated\light-v10\icons-testing-sprite@2x
-
-Modify generate_sprite.js...
-const INPUT_SPRITE_PNG = 'default_sprites/light-v10/sprite.png';
-const INPUT_SPRITE_JSON = 'default_sprites/light-v10/sprite.json';
-const OUTPUT_SPRITE_PNG = 'generated/light-v10/sprite.png';
-const OUTPUT_SPRITE_JSON = 'generated/light-v10/sprite.json';
+Modify sprites\generate_v2\constants.js to the following:
+module.exports = {
+  basemap: 'light-v10',
+  spriteVersion: 'sprite'
+};
 
 Execute generate_sprite.js to generate the low resolution sprite.
 PS C:\...\sprites\generate> node generate_sprite.js
 This will create:
 sprites\generate\generated\light-v10\sprite.png';
 sprites\generate\generated\light-v10\sprite.json';
-
-Modify generate_sprite.js...
-const INPUT_SPRITE_PNG = 'default_sprites/light-v10/sprite@2x.png';
-const INPUT_SPRITE_JSON = 'default_sprites/light-v10/sprite@2x.json';
-const OUTPUT_SPRITE_PNG = 'generated/light-v10/sprite@2x.png';
-const OUTPUT_SPRITE_JSON = 'generated/light-v10/sprite@2x.json';
-
-Execute generate_sprite.js to generate the low resolution sprite.
-PS C:\...\sprites\generate> node generate_sprite.js
-This will create:
-sprites\generate\generated\light-v10\sprite@2x.png';
-sprites\generate\generated\light-v10\sprite@2x.json';
-
-Now you have the sprites that are a combination of the default sprites and the custom sprites.
-Check them to see if they are correct.
-
-Modify sprites\generate\check_generate_sprite.js to check the low resolution sprite.
-const OUTPUT_SPRITE_PNG = 'generated/light-v10/sprite.png';
-const OUTPUT_SPRITE_JSON = 'generated/light-v10/sprite.json';
-const OUTPUT_ICON_FOLDER = 'generated/light-v10/icons-testing-sprite/';
 
 Execute check_generate_sprite.js to check the low resolution sprite. This will fill sprites\generate\generated\light-v10\icons-testing-sprite
 with a single image for each icon in the sprite. It splits sprites\generate\generated\light-v10\sprite.png into individual icons based on the sprite.json file.
@@ -91,13 +63,20 @@ Rendered icon for airport-15: saved as icon_2_airport-15.png
 ...
 Check the icons in sprites\generate\generated\light-v10\icons-testing-sprite to see if they are correct.
 
-Modify sprites\generate\check_generate_sprite.js to check the high resolution sprite.
-const OUTPUT_SPRITE_PNG = 'generated/light-v10/sprite@2x.png';
-const OUTPUT_SPRITE_JSON = 'generated/light-v10/sprite@2x.json';
-const OUTPUT_ICON_FOLDER = 'generated/light-v10/icons-testing-sprite@2x/';
+Modify sprites\generate_v2\constants.js to the following:
+module.exports = {
+  basemap: 'light-v10',
+  spriteVersion: 'sprite@2x'
+};
 
-Execute check_generate_sprite.js to check the high resolution sprite. This will fill sprites\generate\generated\light-v10\icons-testing-sprite@2x
-with a single image for each icon in the sprite. It splits sprites\generate\generated\light-v10\sprite@2x.png into individual icons based on the sprite@2x.json file.
+Execute generate_sprite.js to generate the low resolution sprite.
+PS C:\...\sprites\generate> node generate_sprite.js
+This will create:
+sprites\generate\generated\light-v10\sprite@2x.png';
+sprites\generate\generated\light-v10\sprite@2x.json';
+
+Execute check_generate_sprite.js to check the low resolution sprite. This will fill sprites\generate\generated\light-v10\icons-testing-sprite@2x
+with a single image for each icon in the sprite. It splits sprites\generate\generated\light-v10\sprite@2x.png into individual icons based on the sprite.json file.
 
 sprites\generate> node check_generate_sprite.js
 Cleared all files from generated/light-v10/icons-testing-sprite@2x/
@@ -106,15 +85,7 @@ Rendered icon for airport-15: saved as icon_2_airport-15.png
 ---
 Check the icons in sprites\generate\generated\light-v10\icons-testing-sprite@2x to see if they are correct. The icons should be doubled in size.
 
-Modify sprites\generate\generate_icons.js to build a list of all the names of the icons in the generated sprite.
-const INPUT_SPRITES_JSON = 'generated/light-v10/sprite.json';
-const OUTPUT_ICONS_TXT = 'generated/light-v10/icons/icons.txt';
-
 Execute generate_icons.js. This will create sprites\generate\generated\light-v10\icons\icons.txt
-
-Modify sprites\generate\generate_geojson.js. This will make the script use icons.txt to create a geojson file with points for each icon (around Austin, TX area).
-const INPUT_ICONS_TXT = 'generated/light-v10/icons/icons.txt';
-const OUTPUT_GEOJSON_POINTS = 'generated/light-v10/geojson/points.geojson';
 
 Execute generate_geojson.js. This will create sprites\generate\generated\light-v10\geojson\points.geojson
 
@@ -170,3 +141,9 @@ https://github.com/FergusDevelopmentLLC/sprites
 Now you can see the test map that uses the new light-v10 style with uses the custom sprite. There will be a point on the map for each icon in the sprite.
 https://fergusdevelopmentllc.github.io/sprites/final/test/light-v10-custom/light-v10-custom.html
 
+After doing everything for the spriteStyles above, these urls will work.
+https://fergusdevelopmentllc.github.io/sprites/final_v2/test/streets-v11-custom/streets-v11-custom.html
+https://fergusdevelopmentllc.github.io/sprites/final_v2/test/satellite-streets-v11-custom/satellite-streets-v11-custom.html
+https://fergusdevelopmentllc.github.io/sprites/final_v2/test/outdoors-v11-custom/outdoors-v11-custom.html
+https://fergusdevelopmentllc.github.io/sprites/final_v2/test/dark-v10-custom/dark-v10-custom.html
+https://fergusdevelopmentllc.github.io/sprites/final_v2/test/light-v10-custom/light-v10-custom.html
