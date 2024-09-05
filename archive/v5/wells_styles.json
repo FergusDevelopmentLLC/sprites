@@ -1,0 +1,2025 @@
+[
+  {
+    "style_ndx": 1,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Violet",
+    "stroke_color": "Black",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_10_7"
+    ]
+  },
+  {
+    "style_ndx": 2,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "PaleGreen",
+    "stroke_color": "Black",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_10_4"
+    ]
+  },
+  {
+    "style_ndx": 3,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Orchid",
+    "stroke_color": "Black",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "p_10_10"
+    ]
+  },
+  {
+    "style_ndx": 4,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Orange",
+    "stroke_color": "Black",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_10_8",
+      "as_10_3",
+      "mz_10_1"
+    ]
+  },
+  {
+    "style_ndx": 5,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "MediumOrchid",
+    "stroke_color": "Black",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_10_8"
+    ]
+  },
+  {
+    "style_ndx": 6,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "LimeGreen",
+    "stroke_color": "Black",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_10_5"
+    ]
+  },
+  {
+    "style_ndx": 7,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Lime",
+    "stroke_color": "Black",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_10_5"
+    ]
+  },
+  {
+    "style_ndx": 8,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "LightSalmon",
+    "stroke_color": "Black",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_10_2"
+    ]
+  },
+  {
+    "style_ndx": 9,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "LightGreen",
+    "stroke_color": "Black",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_10_4"
+    ]
+  },
+  {
+    "style_ndx": 10,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Gray",
+    "stroke_color": "Black",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_10_998",
+      "ac_10_999",
+      "as_10_999",
+      "ms_10_998",
+      "mz_10_998",
+      "p_10_999",
+      "s_10_998"
+    ]
+  },
+  {
+    "style_ndx": 11,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Gold",
+    "stroke_color": "Black",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_10_3"
+    ]
+  },
+  {
+    "style_ndx": 12,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "ForestGreen",
+    "stroke_color": "Black",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_10_3"
+    ]
+  },
+  {
+    "style_ndx": 13,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "DodgerBlue",
+    "stroke_color": "Black",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_10_9",
+      "as_10_1",
+      "p_10_6"
+    ]
+  },
+  {
+    "style_ndx": 14,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "DarkOrchid",
+    "stroke_color": "Black",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_10_7",
+      "as_10_2"
+    ]
+  },
+  {
+    "style_ndx": 15,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Black",
+    "stroke_color": "Black",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "c_10_4"
+    ]
+  },
+  {
+    "style_ndx": 16,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Violet",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_9_7"
+    ]
+  },
+  {
+    "style_ndx": 17,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "PaleGreen",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_9_4"
+    ]
+  },
+  {
+    "style_ndx": 18,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Orange",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_9_8"
+    ]
+  },
+  {
+    "style_ndx": 19,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "MediumOrchid",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_9_8"
+    ]
+  },
+  {
+    "style_ndx": 20,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "LimeGreen",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_9_5"
+    ]
+  },
+  {
+    "style_ndx": 21,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "LightSalmon",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_9_2"
+    ]
+  },
+  {
+    "style_ndx": 22,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "LightGreen",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_9_4"
+    ]
+  },
+  {
+    "style_ndx": 23,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Gray",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_9_999",
+      "as_9_999",
+      "c_9_999",
+      "ms_9_999",
+      "mz_9_998",
+      "p_9_999",
+      "s_9_998",
+      "s_9_999"
+    ]
+  },
+  {
+    "style_ndx": 24,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Gold",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_9_3"
+    ]
+  },
+  {
+    "style_ndx": 25,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "ForestGreen",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_9_3"
+    ]
+  },
+  {
+    "style_ndx": 26,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Yellow",
+    "stroke_color": "Red",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "c_31_3"
+    ]
+  },
+  {
+    "style_ndx": 27,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Violet",
+    "stroke_color": "Red",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_31_7"
+    ]
+  },
+  {
+    "style_ndx": 28,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "PaleGreen",
+    "stroke_color": "Red",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_31_4"
+    ]
+  },
+  {
+    "style_ndx": 29,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Orange",
+    "stroke_color": "Red",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_31_8",
+      "as_31_3",
+      "mz_31_1"
+    ]
+  },
+  {
+    "style_ndx": 30,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "MediumOrchid",
+    "stroke_color": "Red",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_31_8"
+    ]
+  },
+  {
+    "style_ndx": 31,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "LimeGreen",
+    "stroke_color": "Red",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_31_5"
+    ]
+  },
+  {
+    "style_ndx": 32,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Lime",
+    "stroke_color": "Red",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_31_5"
+    ]
+  },
+  {
+    "style_ndx": 33,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "LightSalmon",
+    "stroke_color": "Red",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_31_2"
+    ]
+  },
+  {
+    "style_ndx": 34,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "LightGreen",
+    "stroke_color": "Red",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_31_4"
+    ]
+  },
+  {
+    "style_ndx": 35,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Gray",
+    "stroke_color": "Red",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_31_998",
+      "ac_31_999",
+      "as_31_999",
+      "ms_31_998",
+      "mz_31_998",
+      "p_31_999",
+      "s_31_998"
+    ]
+  },
+  {
+    "style_ndx": 36,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Gold",
+    "stroke_color": "Red",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_31_3"
+    ]
+  },
+  {
+    "style_ndx": 37,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "ForestGreen",
+    "stroke_color": "Red",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_31_3"
+    ]
+  },
+  {
+    "style_ndx": 38,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "DodgerBlue",
+    "stroke_color": "Red",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_31_9",
+      "as_31_1"
+    ]
+  },
+  {
+    "style_ndx": 39,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "DarkOrchid",
+    "stroke_color": "Red",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_31_7",
+      "as_31_2"
+    ]
+  },
+  {
+    "style_ndx": 40,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Yellow",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "c_13_3"
+    ]
+  },
+  {
+    "style_ndx": 41,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Wheat",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "p_13_7"
+    ]
+  },
+  {
+    "style_ndx": 42,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Violet",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "mz_13_7"
+    ]
+  },
+  {
+    "style_ndx": 43,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Turquoise",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "p_13_12"
+    ]
+  },
+  {
+    "style_ndx": 44,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "SlateGray",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "p_13_13"
+    ]
+  },
+  {
+    "style_ndx": 45,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "RosyBrown",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "p_13_4"
+    ]
+  },
+  {
+    "style_ndx": 46,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "PaleGreen",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "mz_13_4"
+    ]
+  },
+  {
+    "style_ndx": 47,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Orchid",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "p_13_10"
+    ]
+  },
+  {
+    "style_ndx": 48,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Orange",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "ac_13_8",
+      "as_13_3",
+      "mz_13_1"
+    ]
+  },
+  {
+    "style_ndx": 49,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "MediumSlateBlue",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "s_13_11",
+      "s_13_8"
+    ]
+  },
+  {
+    "style_ndx": 50,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "MediumOrchid",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "mz_13_8"
+    ]
+  },
+  {
+    "style_ndx": 51,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Magenta",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "p_13_9998",
+      "p_13_9999"
+    ]
+  },
+  {
+    "style_ndx": 52,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "LimeGreen",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "mz_13_5",
+      "p_13_2"
+    ]
+  },
+  {
+    "style_ndx": 53,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Lime",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "ac_13_5",
+      "p_13_8"
+    ]
+  },
+  {
+    "style_ndx": 54,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "LightSalmon",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "mz_13_2"
+    ]
+  },
+  {
+    "style_ndx": 55,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "LightGreen",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "ac_13_12",
+      "ac_13_4"
+    ]
+  },
+  {
+    "style_ndx": 56,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "LightGray",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "p_13_14"
+    ]
+  },
+  {
+    "style_ndx": 57,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "LightBlue",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "c_13_8"
+    ]
+  },
+  {
+    "style_ndx": 58,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Green",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "c_13_2"
+    ]
+  },
+  {
+    "style_ndx": 59,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Gray",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "ac_13_998",
+      "ac_13_999",
+      "as_13_999",
+      "ms_13_998",
+      "ms_13_999",
+      "mz_13_998",
+      "p_13_999",
+      "s_13_998",
+      "s_13_999"
+    ]
+  },
+  {
+    "style_ndx": 60,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Gold",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "mz_13_3"
+    ]
+  },
+  {
+    "style_ndx": 61,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "ForestGreen",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "ac_13_3"
+    ]
+  },
+  {
+    "style_ndx": 62,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "DodgerBlue",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "ac_13_9",
+      "as_13_1",
+      "c_13_7",
+      "p_13_6",
+      "s_13_1"
+    ]
+  },
+  {
+    "style_ndx": 63,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "DarkOrchid",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "ac_13_7",
+      "as_13_2",
+      "c_13_1"
+    ]
+  },
+  {
+    "style_ndx": 64,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Chocolate",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "p_13_19",
+      "s_13_2"
+    ]
+  },
+  {
+    "style_ndx": 65,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Brown",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "p_13_18"
+    ]
+  },
+  {
+    "style_ndx": 66,
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Blue",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "p_13_9"
+    ]
+  },
+  {
+    "style_ndx": 67,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Yellow",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "c_18_3"
+    ]
+  },
+  {
+    "style_ndx": 68,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Wheat",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "p_18_7"
+    ]
+  },
+  {
+    "style_ndx": 69,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Turquoise",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "p_18_12"
+    ]
+  },
+  {
+    "style_ndx": 70,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "RosyBrown",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "p_18_4"
+    ]
+  },
+  {
+    "style_ndx": 71,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Orange",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_18_8",
+      "as_18_3",
+      "mz_18_1"
+    ]
+  },
+  {
+    "style_ndx": 72,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "MediumOrchid",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_18_8"
+    ]
+  },
+  {
+    "style_ndx": 73,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Lime",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "p_18_8",
+      "s_18_10",
+      "s_18_9"
+    ]
+  },
+  {
+    "style_ndx": 74,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "LightSalmon",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_18_2"
+    ]
+  },
+  {
+    "style_ndx": 75,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "LightGreen",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_18_4"
+    ]
+  },
+  {
+    "style_ndx": 76,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Green",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "c_18_2"
+    ]
+  },
+  {
+    "style_ndx": 77,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Gray",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "as_18_999",
+      "ms_18_998",
+      "ms_18_999",
+      "p_18_999"
+    ]
+  },
+  {
+    "style_ndx": 78,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Gold",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_18_3"
+    ]
+  },
+  {
+    "style_ndx": 79,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "ForestGreen",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_18_3"
+    ]
+  },
+  {
+    "style_ndx": 80,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "DodgerBlue",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "as_18_1"
+    ]
+  },
+  {
+    "style_ndx": 81,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "DarkOrchid",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_18_7",
+      "as_18_2"
+    ]
+  },
+  {
+    "style_ndx": 82,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Black",
+    "stroke_color": "Gray",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "c_18_4"
+    ]
+  },
+  {
+    "style_ndx": 83,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Violet",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "mz_19_7"
+    ]
+  },
+  {
+    "style_ndx": 84,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "PaleGreen",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "mz_19_4"
+    ]
+  },
+  {
+    "style_ndx": 85,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Orange",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "ac_19_8",
+      "as_19_3",
+      "mz_19_1"
+    ]
+  },
+  {
+    "style_ndx": 86,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "MediumOrchid",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "mz_19_8"
+    ]
+  },
+  {
+    "style_ndx": 87,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "LimeGreen",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "mz_19_5"
+    ]
+  },
+  {
+    "style_ndx": 88,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "LightGreen",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "ac_19_4",
+      "s_19_3"
+    ]
+  },
+  {
+    "style_ndx": 89,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Green",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "c_19_2"
+    ]
+  },
+  {
+    "style_ndx": 90,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Gray",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "ac_19_999",
+      "as_19_999",
+      "ms_19_998",
+      "ms_19_999"
+    ]
+  },
+  {
+    "style_ndx": 91,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Gold",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "mz_19_3"
+    ]
+  },
+  {
+    "style_ndx": 92,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "ForestGreen",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "ac_19_3"
+    ]
+  },
+  {
+    "style_ndx": 93,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "DodgerBlue",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "as_19_1",
+      "p_19_6"
+    ]
+  },
+  {
+    "style_ndx": 94,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "DarkOrchid",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "as_19_2"
+    ]
+  },
+  {
+    "style_ndx": 95,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "BlueViolet",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "p_19_22"
+    ]
+  },
+  {
+    "style_ndx": 96,
+    "shape": "square",
+    "height": 18,
+    "width": 18,
+    "fill_color": "Black",
+    "stroke_color": "White",
+    "stroke_width": 1,
+    "matching_src_attributes": [
+      "c_19_4"
+    ]
+  },
+  {
+    "style_ndx": 97,
+    "shape": "square",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Yellow",
+    "stroke_color": "Yellow",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "c_21_3"
+    ]
+  },
+  {
+    "style_ndx": 98,
+    "shape": "square",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Wheat",
+    "stroke_color": "Yellow",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "p_21_7"
+    ]
+  },
+  {
+    "style_ndx": 99,
+    "shape": "square",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Violet",
+    "stroke_color": "Yellow",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_21_7"
+    ]
+  },
+  {
+    "style_ndx": 100,
+    "shape": "square",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Turquoise",
+    "stroke_color": "Yellow",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "p_21_12"
+    ]
+  },
+  {
+    "style_ndx": 101,
+    "shape": "square",
+    "height": 26,
+    "width": 26,
+    "fill_color": "RosyBrown",
+    "stroke_color": "Yellow",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "p_21_4"
+    ]
+  },
+  {
+    "style_ndx": 102,
+    "shape": "square",
+    "height": 26,
+    "width": 26,
+    "fill_color": "PaleGreen",
+    "stroke_color": "Yellow",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_21_4"
+    ]
+  },
+  {
+    "style_ndx": 103,
+    "shape": "square",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Orange",
+    "stroke_color": "Yellow",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_21_8",
+      "as_21_3",
+      "mz_21_1"
+    ]
+  },
+  {
+    "style_ndx": 104,
+    "shape": "square",
+    "height": 26,
+    "width": 26,
+    "fill_color": "MediumOrchid",
+    "stroke_color": "Yellow",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_21_8"
+    ]
+  },
+  {
+    "style_ndx": 105,
+    "shape": "square",
+    "height": 26,
+    "width": 26,
+    "fill_color": "LimeGreen",
+    "stroke_color": "Yellow",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_21_5",
+      "p_21_2"
+    ]
+  },
+  {
+    "style_ndx": 106,
+    "shape": "square",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Lime",
+    "stroke_color": "Yellow",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_21_5",
+      "p_21_8"
+    ]
+  },
+  {
+    "style_ndx": 107,
+    "shape": "square",
+    "height": 26,
+    "width": 26,
+    "fill_color": "LightSalmon",
+    "stroke_color": "Yellow",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_21_2"
+    ]
+  },
+  {
+    "style_ndx": 108,
+    "shape": "square",
+    "height": 26,
+    "width": 26,
+    "fill_color": "LightGreen",
+    "stroke_color": "Yellow",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_21_4"
+    ]
+  },
+  {
+    "style_ndx": 109,
+    "shape": "square",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Green",
+    "stroke_color": "Yellow",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "c_21_2",
+      "s_21_4"
+    ]
+  },
+  {
+    "style_ndx": 110,
+    "shape": "square",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Gray",
+    "stroke_color": "Yellow",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "as_21_999",
+      "ms_21_998",
+      "ms_21_999"
+    ]
+  },
+  {
+    "style_ndx": 111,
+    "shape": "square",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Gold",
+    "stroke_color": "Yellow",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_21_3"
+    ]
+  },
+  {
+    "style_ndx": 112,
+    "shape": "square",
+    "height": 26,
+    "width": 26,
+    "fill_color": "ForestGreen",
+    "stroke_color": "Yellow",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_21_3"
+    ]
+  },
+  {
+    "style_ndx": 113,
+    "shape": "square",
+    "height": 26,
+    "width": 26,
+    "fill_color": "DodgerBlue",
+    "stroke_color": "Yellow",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "as_21_1",
+      "p_21_6"
+    ]
+  },
+  {
+    "style_ndx": 114,
+    "shape": "square",
+    "height": 26,
+    "width": 26,
+    "fill_color": "DarkOrchid",
+    "stroke_color": "Yellow",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_21_7",
+      "as_21_2",
+      "c_21_1"
+    ]
+  },
+  {
+    "style_ndx": 115,
+    "shape": "square",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Black",
+    "stroke_color": "Yellow",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "c_21_4"
+    ]
+  },
+  {
+    "style_ndx": 116,
+    "shape": "star-7pt",
+    "height": 26,
+    "width": 26,
+    "fill_color": "PaleGreen",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_11_4"
+    ]
+  },
+  {
+    "style_ndx": 117,
+    "shape": "star-7pt",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Orchid",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "s_11_6"
+    ]
+  },
+  {
+    "style_ndx": 118,
+    "shape": "star-7pt",
+    "height": 26,
+    "width": 26,
+    "fill_color": "MediumOrchid",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_11_8"
+    ]
+  },
+  {
+    "style_ndx": 119,
+    "shape": "star-7pt",
+    "height": 26,
+    "width": 26,
+    "fill_color": "LightGreen",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_11_4"
+    ]
+  },
+  {
+    "style_ndx": 120,
+    "shape": "star-7pt",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Gray",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_11_999",
+      "as_11_999",
+      "ms_11_998",
+      "ms_11_999",
+      "p_11_999"
+    ]
+  },
+  {
+    "style_ndx": 121,
+    "shape": "star-7pt",
+    "height": 26,
+    "width": 26,
+    "fill_color": "DodgerBlue",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "as_11_1",
+      "c_11_7"
+    ]
+  },
+  {
+    "style_ndx": 122,
+    "shape": "star-7pt",
+    "height": 26,
+    "width": 26,
+    "fill_color": "DarkOrchid",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "c_11_1",
+      "s_11_5"
+    ]
+  },
+  {
+    "style_ndx": 123,
+    "shape": "star-7pt",
+    "height": 26,
+    "width": 26,
+    "fill_color": "BlueViolet",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "p_11_22"
+    ]
+  },
+  {
+    "style_ndx": 124,
+    "shape": "star-7pt",
+    "height": 36,
+    "width": 36,
+    "fill_color": "Orchid",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "p_4_10",
+      "s_4_6"
+    ]
+  },
+  {
+    "style_ndx": 125,
+    "shape": "star-7pt",
+    "height": 36,
+    "width": 36,
+    "fill_color": "Orange",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_4_8",
+      "ms_4_3",
+      "mz_4_1"
+    ]
+  },
+  {
+    "style_ndx": 126,
+    "shape": "star-7pt",
+    "height": 36,
+    "width": 36,
+    "fill_color": "LimeGreen",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_4_5"
+    ]
+  },
+  {
+    "style_ndx": 127,
+    "shape": "star-7pt",
+    "height": 36,
+    "width": 36,
+    "fill_color": "Green",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "c_4_2"
+    ]
+  },
+  {
+    "style_ndx": 128,
+    "shape": "star-7pt",
+    "height": 36,
+    "width": 36,
+    "fill_color": "Gray",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_4_999",
+      "as_4_999"
+    ]
+  },
+  {
+    "style_ndx": 129,
+    "shape": "star-7pt",
+    "height": 36,
+    "width": 36,
+    "fill_color": "Gold",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_4_3"
+    ]
+  },
+  {
+    "style_ndx": 130,
+    "shape": "star-7pt",
+    "height": 36,
+    "width": 36,
+    "fill_color": "DarkOrchid",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "as_4_2",
+      "c_4_1",
+      "s_4_5"
+    ]
+  },
+  {
+    "style_ndx": 131,
+    "shape": "star-7pt",
+    "height": 36,
+    "width": 36,
+    "fill_color": "Orange",
+    "stroke_color": "Yellow",
+    "stroke_width": 4,
+    "matching_src_attributes": [
+      "ac_25_8",
+      "as_25_3",
+      "p_25_1",
+      "s_25_7"
+    ]
+  },
+  {
+    "style_ndx": 132,
+    "shape": "star-7pt",
+    "height": 36,
+    "width": 36,
+    "fill_color": "Green",
+    "stroke_color": "Yellow",
+    "stroke_width": 4,
+    "matching_src_attributes": [
+      "c_25_2"
+    ]
+  },
+  {
+    "style_ndx": 133,
+    "shape": "star-7pt",
+    "height": 36,
+    "width": 36,
+    "fill_color": "Gray",
+    "stroke_color": "Yellow",
+    "stroke_width": 4,
+    "matching_src_attributes": [
+      "ac_25_999",
+      "as_25_999",
+      "ms_25_999"
+    ]
+  },
+  {
+    "style_ndx": 134,
+    "shape": "star-7pt",
+    "height": 36,
+    "width": 36,
+    "fill_color": "Gold",
+    "stroke_color": "Yellow",
+    "stroke_width": 4,
+    "matching_src_attributes": [
+      "mz_25_3"
+    ]
+  },
+  {
+    "style_ndx": 135,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Violet",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_3_7"
+    ]
+  },
+  {
+    "style_ndx": 136,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "PaleGreen",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_3_4"
+    ]
+  },
+  {
+    "style_ndx": 137,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Orchid",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "p_3_10"
+    ]
+  },
+  {
+    "style_ndx": 138,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Orange",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_3_8",
+      "as_3_3",
+      "mz_3_1"
+    ]
+  },
+  {
+    "style_ndx": 139,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "MediumOrchid",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_3_8"
+    ]
+  },
+  {
+    "style_ndx": 140,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "LimeGreen",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_3_5"
+    ]
+  },
+  {
+    "style_ndx": 141,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Lime",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_3_5"
+    ]
+  },
+  {
+    "style_ndx": 142,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "LightSalmon",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_3_2"
+    ]
+  },
+  {
+    "style_ndx": 143,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "LightGreen",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_3_4",
+      "s_3_3"
+    ]
+  },
+  {
+    "style_ndx": 144,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Green",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "c_3_2"
+    ]
+  },
+  {
+    "style_ndx": 145,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Gray",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_3_998",
+      "ac_3_999",
+      "as_3_999",
+      "mz_3_998"
+    ]
+  },
+  {
+    "style_ndx": 146,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Gold",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "mz_3_3"
+    ]
+  },
+  {
+    "style_ndx": 147,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "ForestGreen",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_3_3"
+    ]
+  },
+  {
+    "style_ndx": 148,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "DodgerBlue",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_3_9",
+      "as_3_1",
+      "p_3_6"
+    ]
+  },
+  {
+    "style_ndx": 149,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "DarkOrchid",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ac_3_7",
+      "as_3_2",
+      "c_3_1",
+      "s_3_5"
+    ]
+  },
+  {
+    "style_ndx": 150,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Blue",
+    "stroke_color": "White",
+    "stroke_width": 2,
+    "matching_src_attributes": [
+      "ms_3_2"
+    ]
+  },
+  {
+    "style_ndx": 151,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Yellow",
+    "stroke_color": "Yellow",
+    "stroke_width": 3,
+    "matching_src_attributes": [
+      "ms_27_1"
+    ]
+  },
+  {
+    "style_ndx": 152,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Orchid",
+    "stroke_color": "Yellow",
+    "stroke_width": 3,
+    "matching_src_attributes": [
+      "p_27_10"
+    ]
+  },
+  {
+    "style_ndx": 153,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Orange",
+    "stroke_color": "Yellow",
+    "stroke_width": 3,
+    "matching_src_attributes": [
+      "ac_27_8"
+    ]
+  },
+  {
+    "style_ndx": 154,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "LimeGreen",
+    "stroke_color": "Yellow",
+    "stroke_width": 3,
+    "matching_src_attributes": [
+      "mz_27_5"
+    ]
+  },
+  {
+    "style_ndx": 155,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "LightSalmon",
+    "stroke_color": "Yellow",
+    "stroke_width": 3,
+    "matching_src_attributes": [
+      "mz_27_2"
+    ]
+  },
+  {
+    "style_ndx": 156,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "LightGreen",
+    "stroke_color": "Yellow",
+    "stroke_width": 3,
+    "matching_src_attributes": [
+      "ac_27_4"
+    ]
+  },
+  {
+    "style_ndx": 157,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Green",
+    "stroke_color": "Yellow",
+    "stroke_width": 3,
+    "matching_src_attributes": [
+      "c_27_2"
+    ]
+  },
+  {
+    "style_ndx": 158,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "Gray",
+    "stroke_color": "Yellow",
+    "stroke_width": 3,
+    "matching_src_attributes": [
+      "as_27_999"
+    ]
+  },
+  {
+    "style_ndx": 159,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "DodgerBlue",
+    "stroke_color": "Yellow",
+    "stroke_width": 3,
+    "matching_src_attributes": [
+      "as_27_1"
+    ]
+  },
+  {
+    "style_ndx": 160,
+    "shape": "triangle",
+    "height": 26,
+    "width": 26,
+    "fill_color": "DarkOrchid",
+    "stroke_color": "Yellow",
+    "stroke_width": 3,
+    "matching_src_attributes": [
+      "s_27_5"
+    ]
+  }
+]
