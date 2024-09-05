@@ -164,5 +164,9 @@ to
 sprites\final\test\light-v10-custom\points.geojson
 
 Now you have everything to test the new style with the custom sprite, but you have to push the changes to github first.
+Make a PR with these changes and merge them to the main branch.
+https://github.com/FergusDevelopmentLLC/sprites
 
+Now you can see the test map that uses the new light-v10 style with uses the custom sprite. There will be a point on the map for each icon in the sprite.
+https://fergusdevelopmentllc.github.io/sprites/final/test/light-v10-custom/light-v10-custom.html
 
