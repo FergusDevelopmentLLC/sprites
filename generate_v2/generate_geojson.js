@@ -1,9 +1,19 @@
 const fs = require('fs');
 const { basemap } = require('./constants');
 
-// Constants for input and output paths
-const INPUT_ICONS_TXT = `generated/${basemap}/icons/icons.txt`;
-const OUTPUT_GEOJSON_POINTS = `generated/${basemap}/geojson/points.geojson`;
+const OUTPUT_DIR = `generated/${basemap}`;
+const INPUT_ICONS_TXT = `${OUTPUT_DIR}/icons/icons.txt`;
+const OUTPUT_GEOJSON_POINTS = `${OUTPUT_DIR}/geojson/points.geojson`;
+
+if (!fs.existsSync(OUTPUT_DIR)) {
+  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+  console.log(`Created directory: ${OUTPUT_DIR}`);
+}
+
+if (!fs.existsSync(`${OUTPUT_DIR}/geojson/`)) {
+  fs.mkdirSync(`${OUTPUT_DIR}/geojson/`, { recursive: true });
+  console.log(`Created directory: ${OUTPUT_DIR}/geojson/`);
+}
 
 // Function to read icons from icons.txt
 function readIconsFromFile() {

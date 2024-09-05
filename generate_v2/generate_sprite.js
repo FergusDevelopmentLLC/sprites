@@ -1,14 +1,21 @@
 const fs = require('fs');
 const Jimp = require('jimp');
 const svgToImg = require('svg-to-img');
-// Import the version constant from constants.js
 const { basemap } = require('./constants');
+const { spriteVersion } = require('./constants');
 
 // Constants for input and output paths
-const INPUT_SPRITE_PNG = `default_sprites/${basemap}/sprite@2x.png`;
-const INPUT_SPRITE_JSON = `default_sprites/${basemap}/sprite@2x.json`;
-const OUTPUT_SPRITE_PNG = `generated/${basemap}/sprite@2x.png`;
-const OUTPUT_SPRITE_JSON = `generated/${basemap}/sprite@2x.json`;
+const INPUT_SPRITE_PNG = `default_sprites/${basemap}/${spriteVersion}.png`;
+const INPUT_SPRITE_JSON = `default_sprites/${basemap}/${spriteVersion}.json`;
+const OUTPUT_DIR = `generated/${basemap}`;
+const OUTPUT_SPRITE_PNG = `${OUTPUT_DIR}/${spriteVersion}.png`;
+const OUTPUT_SPRITE_JSON = `${OUTPUT_DIR}/${spriteVersion}.json`;
+
+// Ensure the output directory exists
+if (!fs.existsSync(OUTPUT_DIR)) {
+  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+  console.log(`Created directory: ${OUTPUT_DIR}`);
+}
 
 // Set scaleFactor based on whether INPUT_SPRITE_PNG contains "@2x"
 const scaleFactor = INPUT_SPRITE_PNG.includes('@2x') ? 2 : 1;
