@@ -1,0 +1,974 @@
+[
+  {
+    "sprite_ndx": "sprite3001",
+    "shape": "triangle",
+    "height": 23,
+    "width": 23,
+    "fill_color": "#542788",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite3002",
+    "shape": "triangle",
+    "height": 23,
+    "width": 23,
+    "fill_color": "#8073ac",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite3003",
+    "shape": "triangle",
+    "height": 23,
+    "width": 23,
+    "fill_color": "#b2abd2",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite3004",
+    "shape": "triangle",
+    "height": 23,
+    "width": 23,
+    "fill_color": "#b35806",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite3005",
+    "shape": "triangle",
+    "height": 23,
+    "width": 23,
+    "fill_color": "#d8daeb",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite3006",
+    "shape": "triangle",
+    "height": 23,
+    "width": 23,
+    "fill_color": "#e08214",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite3007",
+    "shape": "triangle",
+    "height": 23,
+    "width": 23,
+    "fill_color": "#f7f7f7",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite3008",
+    "shape": "triangle",
+    "height": 23,
+    "width": 23,
+    "fill_color": "#fdb863",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite3009",
+    "shape": "triangle",
+    "height": 23,
+    "width": 23,
+    "fill_color": "#fee0b6",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite4001",
+    "shape": "star-7pt",
+    "height": 36,
+    "width": 36,
+    "fill_color": "#542788",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite4002",
+    "shape": "star-7pt",
+    "height": 36,
+    "width": 36,
+    "fill_color": "#8073ac",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite4003",
+    "shape": "star-7pt",
+    "height": 36,
+    "width": 36,
+    "fill_color": "#b2abd2",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite4004",
+    "shape": "star-7pt",
+    "height": 36,
+    "width": 36,
+    "fill_color": "#b35806",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite4005",
+    "shape": "star-7pt",
+    "height": 36,
+    "width": 36,
+    "fill_color": "#d8daeb",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite4006",
+    "shape": "star-7pt",
+    "height": 36,
+    "width": 36,
+    "fill_color": "#e08214",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite4007",
+    "shape": "star-7pt",
+    "height": 36,
+    "width": 36,
+    "fill_color": "#f7f7f7",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite4008",
+    "shape": "star-7pt",
+    "height": 36,
+    "width": 36,
+    "fill_color": "#fdb863",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite4009",
+    "shape": "star-7pt",
+    "height": 36,
+    "width": 36,
+    "fill_color": "#fee0b6",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite9001",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#542788",
+    "stroke_color": "#808080",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite9002",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#8073ac",
+    "stroke_color": "#808080",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite9003",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#b2abd2",
+    "stroke_color": "#808080",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite9004",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#b35806",
+    "stroke_color": "#808080",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite9005",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#d8daeb",
+    "stroke_color": "#808080",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite9006",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#e08214",
+    "stroke_color": "#808080",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite9007",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#f7f7f7",
+    "stroke_color": "#808080",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite9008",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#fdb863",
+    "stroke_color": "#808080",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite9009",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#fee0b6",
+    "stroke_color": "#808080",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite10001",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#542788",
+    "stroke_color": "#000000",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite10002",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#8073ac",
+    "stroke_color": "#000000",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite10003",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#b2abd2",
+    "stroke_color": "#000000",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite10004",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#b35806",
+    "stroke_color": "#000000",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite10005",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#d8daeb",
+    "stroke_color": "#000000",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite10006",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#e08214",
+    "stroke_color": "#000000",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite10007",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#f7f7f7",
+    "stroke_color": "#000000",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite10008",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#fdb863",
+    "stroke_color": "#000000",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite10009",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#fee0b6",
+    "stroke_color": "#000000",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite11001",
+    "shape": "star-7pt",
+    "height": 25,
+    "width": 25,
+    "fill_color": "#542788",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite11002",
+    "shape": "star-7pt",
+    "height": 25,
+    "width": 25,
+    "fill_color": "#8073ac",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite11003",
+    "shape": "star-7pt",
+    "height": 25,
+    "width": 25,
+    "fill_color": "#b2abd2",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite11004",
+    "shape": "star-7pt",
+    "height": 25,
+    "width": 25,
+    "fill_color": "#b35806",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite11005",
+    "shape": "star-7pt",
+    "height": 25,
+    "width": 25,
+    "fill_color": "#d8daeb",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite11006",
+    "shape": "star-7pt",
+    "height": 25,
+    "width": 25,
+    "fill_color": "#e08214",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite11007",
+    "shape": "star-7pt",
+    "height": 25,
+    "width": 25,
+    "fill_color": "#f7f7f7",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite11008",
+    "shape": "star-7pt",
+    "height": 25,
+    "width": 25,
+    "fill_color": "#fdb863",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite11009",
+    "shape": "star-7pt",
+    "height": 25,
+    "width": 25,
+    "fill_color": "#fee0b6",
+    "stroke_color": "#ffffff",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite13001",
+    "shape": "circle",
+    "height": 20,
+    "width": 20,
+    "fill_color": "#542788",
+    "stroke_color": "#ffffff",
+    "stroke_width": 1
+  },
+  {
+    "sprite_ndx": "sprite13002",
+    "shape": "circle",
+    "height": 20,
+    "width": 20,
+    "fill_color": "#8073ac",
+    "stroke_color": "#ffffff",
+    "stroke_width": 1
+  },
+  {
+    "sprite_ndx": "sprite13003",
+    "shape": "circle",
+    "height": 20,
+    "width": 20,
+    "fill_color": "#b2abd2",
+    "stroke_color": "#ffffff",
+    "stroke_width": 1
+  },
+  {
+    "sprite_ndx": "sprite13004",
+    "shape": "circle",
+    "height": 20,
+    "width": 20,
+    "fill_color": "#b35806",
+    "stroke_color": "#ffffff",
+    "stroke_width": 1
+  },
+  {
+    "sprite_ndx": "sprite13005",
+    "shape": "circle",
+    "height": 20,
+    "width": 20,
+    "fill_color": "#d8daeb",
+    "stroke_color": "#ffffff",
+    "stroke_width": 1
+  },
+  {
+    "sprite_ndx": "sprite13006",
+    "shape": "circle",
+    "height": 20,
+    "width": 20,
+    "fill_color": "#e08214",
+    "stroke_color": "#ffffff",
+    "stroke_width": 1
+  },
+  {
+    "sprite_ndx": "sprite13007",
+    "shape": "circle",
+    "height": 20,
+    "width": 20,
+    "fill_color": "#f7f7f7",
+    "stroke_color": "#ffffff",
+    "stroke_width": 1
+  },
+  {
+    "sprite_ndx": "sprite13008",
+    "shape": "circle",
+    "height": 20,
+    "width": 20,
+    "fill_color": "#fdb863",
+    "stroke_color": "#ffffff",
+    "stroke_width": 1
+  },
+  {
+    "sprite_ndx": "sprite13009",
+    "shape": "circle",
+    "height": 20,
+    "width": 20,
+    "fill_color": "#fee0b6",
+    "stroke_color": "#ffffff",
+    "stroke_width": 1
+  },
+  {
+    "sprite_ndx": "sprite18001",
+    "shape": "square",
+    "height": 20,
+    "width": 20,
+    "fill_color": "#542788",
+    "stroke_color": "#808080",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite18002",
+    "shape": "square",
+    "height": 20,
+    "width": 20,
+    "fill_color": "#8073ac",
+    "stroke_color": "#808080",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite18003",
+    "shape": "square",
+    "height": 20,
+    "width": 20,
+    "fill_color": "#b2abd2",
+    "stroke_color": "#808080",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite18004",
+    "shape": "square",
+    "height": 20,
+    "width": 20,
+    "fill_color": "#b35806",
+    "stroke_color": "#808080",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite18005",
+    "shape": "square",
+    "height": 20,
+    "width": 20,
+    "fill_color": "#d8daeb",
+    "stroke_color": "#808080",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite18006",
+    "shape": "square",
+    "height": 20,
+    "width": 20,
+    "fill_color": "#e08214",
+    "stroke_color": "#808080",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite18007",
+    "shape": "square",
+    "height": 20,
+    "width": 20,
+    "fill_color": "#f7f7f7",
+    "stroke_color": "#808080",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite18008",
+    "shape": "square",
+    "height": 20,
+    "width": 20,
+    "fill_color": "#fdb863",
+    "stroke_color": "#808080",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite18009",
+    "shape": "square",
+    "height": 20,
+    "width": 20,
+    "fill_color": "#fee0b6",
+    "stroke_color": "#808080",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite19001",
+    "shape": "square",
+    "height": 21,
+    "width": 21,
+    "fill_color": "#542788",
+    "stroke_color": "#ffffff",
+    "stroke_width": 1
+  },
+  {
+    "sprite_ndx": "sprite19002",
+    "shape": "square",
+    "height": 21,
+    "width": 21,
+    "fill_color": "#8073ac",
+    "stroke_color": "#ffffff",
+    "stroke_width": 1
+  },
+  {
+    "sprite_ndx": "sprite19003",
+    "shape": "square",
+    "height": 21,
+    "width": 21,
+    "fill_color": "#b2abd2",
+    "stroke_color": "#ffffff",
+    "stroke_width": 1
+  },
+  {
+    "sprite_ndx": "sprite19004",
+    "shape": "square",
+    "height": 21,
+    "width": 21,
+    "fill_color": "#b35806",
+    "stroke_color": "#ffffff",
+    "stroke_width": 1
+  },
+  {
+    "sprite_ndx": "sprite19005",
+    "shape": "square",
+    "height": 21,
+    "width": 21,
+    "fill_color": "#d8daeb",
+    "stroke_color": "#ffffff",
+    "stroke_width": 1
+  },
+  {
+    "sprite_ndx": "sprite19006",
+    "shape": "square",
+    "height": 21,
+    "width": 21,
+    "fill_color": "#e08214",
+    "stroke_color": "#ffffff",
+    "stroke_width": 1
+  },
+  {
+    "sprite_ndx": "sprite19007",
+    "shape": "square",
+    "height": 21,
+    "width": 21,
+    "fill_color": "#f7f7f7",
+    "stroke_color": "#ffffff",
+    "stroke_width": 1
+  },
+  {
+    "sprite_ndx": "sprite19008",
+    "shape": "square",
+    "height": 21,
+    "width": 21,
+    "fill_color": "#fdb863",
+    "stroke_color": "#ffffff",
+    "stroke_width": 1
+  },
+  {
+    "sprite_ndx": "sprite19009",
+    "shape": "square",
+    "height": 21,
+    "width": 21,
+    "fill_color": "#fee0b6",
+    "stroke_color": "#ffffff",
+    "stroke_width": 1
+  },
+  {
+    "sprite_ndx": "sprite21001",
+    "shape": "square",
+    "height": 23,
+    "width": 23,
+    "fill_color": "#542788",
+    "stroke_color": "#ffff00",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite21002",
+    "shape": "square",
+    "height": 23,
+    "width": 23,
+    "fill_color": "#8073ac",
+    "stroke_color": "#ffff00",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite21003",
+    "shape": "square",
+    "height": 23,
+    "width": 23,
+    "fill_color": "#b2abd2",
+    "stroke_color": "#ffff00",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite21004",
+    "shape": "square",
+    "height": 23,
+    "width": 23,
+    "fill_color": "#b35806",
+    "stroke_color": "#ffff00",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite21005",
+    "shape": "square",
+    "height": 23,
+    "width": 23,
+    "fill_color": "#d8daeb",
+    "stroke_color": "#ffff00",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite21006",
+    "shape": "square",
+    "height": 23,
+    "width": 23,
+    "fill_color": "#e08214",
+    "stroke_color": "#ffff00",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite21007",
+    "shape": "square",
+    "height": 23,
+    "width": 23,
+    "fill_color": "#f7f7f7",
+    "stroke_color": "#ffff00",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite21008",
+    "shape": "square",
+    "height": 23,
+    "width": 23,
+    "fill_color": "#fdb863",
+    "stroke_color": "#ffff00",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite21009",
+    "shape": "square",
+    "height": 23,
+    "width": 23,
+    "fill_color": "#fee0b6",
+    "stroke_color": "#ffff00",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite25001",
+    "shape": "star-7pt",
+    "height": 33,
+    "width": 33,
+    "fill_color": "#542788",
+    "stroke_color": "#ffff00",
+    "stroke_width": 4
+  },
+  {
+    "sprite_ndx": "sprite25002",
+    "shape": "star-7pt",
+    "height": 33,
+    "width": 33,
+    "fill_color": "#8073ac",
+    "stroke_color": "#ffff00",
+    "stroke_width": 4
+  },
+  {
+    "sprite_ndx": "sprite25003",
+    "shape": "star-7pt",
+    "height": 33,
+    "width": 33,
+    "fill_color": "#b2abd2",
+    "stroke_color": "#ffff00",
+    "stroke_width": 4
+  },
+  {
+    "sprite_ndx": "sprite25004",
+    "shape": "star-7pt",
+    "height": 33,
+    "width": 33,
+    "fill_color": "#b35806",
+    "stroke_color": "#ffff00",
+    "stroke_width": 4
+  },
+  {
+    "sprite_ndx": "sprite25005",
+    "shape": "star-7pt",
+    "height": 33,
+    "width": 33,
+    "fill_color": "#d8daeb",
+    "stroke_color": "#ffff00",
+    "stroke_width": 4
+  },
+  {
+    "sprite_ndx": "sprite25006",
+    "shape": "star-7pt",
+    "height": 33,
+    "width": 33,
+    "fill_color": "#e08214",
+    "stroke_color": "#ffff00",
+    "stroke_width": 4
+  },
+  {
+    "sprite_ndx": "sprite25007",
+    "shape": "star-7pt",
+    "height": 33,
+    "width": 33,
+    "fill_color": "#f7f7f7",
+    "stroke_color": "#ffff00",
+    "stroke_width": 4
+  },
+  {
+    "sprite_ndx": "sprite25008",
+    "shape": "star-7pt",
+    "height": 33,
+    "width": 33,
+    "fill_color": "#fdb863",
+    "stroke_color": "#ffff00",
+    "stroke_width": 4
+  },
+  {
+    "sprite_ndx": "sprite25009",
+    "shape": "star-7pt",
+    "height": 33,
+    "width": 33,
+    "fill_color": "#fee0b6",
+    "stroke_color": "#ffff00",
+    "stroke_width": 4
+  },
+  {
+    "sprite_ndx": "sprite27001",
+    "shape": "triangle",
+    "height": 21,
+    "width": 21,
+    "fill_color": "#542788",
+    "stroke_color": "#ffff00",
+    "stroke_width": 3
+  },
+  {
+    "sprite_ndx": "sprite27002",
+    "shape": "triangle",
+    "height": 21,
+    "width": 21,
+    "fill_color": "#8073ac",
+    "stroke_color": "#ffff00",
+    "stroke_width": 3
+  },
+  {
+    "sprite_ndx": "sprite27003",
+    "shape": "triangle",
+    "height": 21,
+    "width": 21,
+    "fill_color": "#b2abd2",
+    "stroke_color": "#ffff00",
+    "stroke_width": 3
+  },
+  {
+    "sprite_ndx": "sprite27004",
+    "shape": "triangle",
+    "height": 21,
+    "width": 21,
+    "fill_color": "#b35806",
+    "stroke_color": "#ffff00",
+    "stroke_width": 3
+  },
+  {
+    "sprite_ndx": "sprite27005",
+    "shape": "triangle",
+    "height": 21,
+    "width": 21,
+    "fill_color": "#d8daeb",
+    "stroke_color": "#ffff00",
+    "stroke_width": 3
+  },
+  {
+    "sprite_ndx": "sprite27006",
+    "shape": "triangle",
+    "height": 21,
+    "width": 21,
+    "fill_color": "#e08214",
+    "stroke_color": "#ffff00",
+    "stroke_width": 3
+  },
+  {
+    "sprite_ndx": "sprite27007",
+    "shape": "triangle",
+    "height": 21,
+    "width": 21,
+    "fill_color": "#f7f7f7",
+    "stroke_color": "#ffff00",
+    "stroke_width": 3
+  },
+  {
+    "sprite_ndx": "sprite27008",
+    "shape": "triangle",
+    "height": 21,
+    "width": 21,
+    "fill_color": "#fdb863",
+    "stroke_color": "#ffff00",
+    "stroke_width": 3
+  },
+  {
+    "sprite_ndx": "sprite27009",
+    "shape": "triangle",
+    "height": 21,
+    "width": 21,
+    "fill_color": "#fee0b6",
+    "stroke_color": "#ffff00",
+    "stroke_width": 3
+  },
+  {
+    "sprite_ndx": "sprite31001",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#542788",
+    "stroke_color": "#ff0000",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite31002",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#8073ac",
+    "stroke_color": "#ff0000",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite31003",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#b2abd2",
+    "stroke_color": "#ff0000",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite31004",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#b35806",
+    "stroke_color": "#ff0000",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite31005",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#d8daeb",
+    "stroke_color": "#ff0000",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite31006",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#e08214",
+    "stroke_color": "#ff0000",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite31007",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#f7f7f7",
+    "stroke_color": "#ff0000",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite31008",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#fdb863",
+    "stroke_color": "#ff0000",
+    "stroke_width": 2
+  },
+  {
+    "sprite_ndx": "sprite31009",
+    "shape": "circle",
+    "height": 18,
+    "width": 18,
+    "fill_color": "#fee0b6",
+    "stroke_color": "#ff0000",
+    "stroke_width": 2
+  }
+]
