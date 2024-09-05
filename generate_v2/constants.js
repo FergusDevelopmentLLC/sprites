@@ -1,4 +1,4 @@
 module.exports = {
-  basemap: 'outdoors-v11',
+  basemap: 'dark-v10',
   spriteVersion: 'sprite@2x'
 };
