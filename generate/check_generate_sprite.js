@@ -3,9 +3,9 @@ const Jimp = require('jimp');
 const path = require('path');
 
 // Constants for output paths
-const OUTPUT_SPRITE_PNG = 'generated/streets-v11/sprite@2x.png';
-const OUTPUT_SPRITE_JSON = 'generated/streets-v11/sprite@2x.json';
-const OUTPUT_ICON_FOLDER = 'generated/streets-v11/icons-testing-sprite@2x/';
+const OUTPUT_SPRITE_PNG = 'generated/light-v10/sprite@2x.png';
+const OUTPUT_SPRITE_JSON = 'generated/light-v10/sprite@2x.json';
+const OUTPUT_ICON_FOLDER = 'generated/light-v10/icons-testing-sprite@2x/';
 
 // Function to delete all files in the output folder
 const clearOutputFolder = (folder) => {

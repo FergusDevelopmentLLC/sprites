@@ -1,8 +1,8 @@
 const fs = require('fs');
 
 // Constants for input and output paths
-const INPUT_SPRITES_JSON = 'generated/streets-v11/sprite.json';
-const OUTPUT_ICONS_TXT = 'generated/streets-v11/icons/icons.txt';
+const INPUT_SPRITES_JSON = 'generated/light-v10/sprite.json';
+const OUTPUT_ICONS_TXT = 'generated/light-v10/icons/icons.txt';
 
 // Read the JSON file
 fs.readFile(INPUT_SPRITES_JSON, 'utf8', (err, data) => {
