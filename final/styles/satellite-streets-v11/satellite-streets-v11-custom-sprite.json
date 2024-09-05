@@ -35,7 +35,7 @@
     20
   ],
   "zoom": 2,
-  "sprite": "https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/final/sprites/satellite-streets-v11/sprites",
+  "sprite": "https://raw.githubusercontent.com/FergusDevelopmentLLC/sprites/main/final/sprites/satellite-streets-v11/sprite",
   "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
   "layers": [
     {
