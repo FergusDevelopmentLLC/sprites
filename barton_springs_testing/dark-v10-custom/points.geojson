@@ -1,0 +1,4360 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6295321778425,
+          30.91845994698453
+        ]
+      },
+      "properties": {
+        "icon": "airfield-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5575321778425,
+          30.91845994698453
+        ]
+      },
+      "properties": {
+        "icon": "airport-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4855321778425,
+          30.91845994698453
+        ]
+      },
+      "properties": {
+        "icon": "alcohol-shop-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4135321778425,
+          30.91845994698453
+        ]
+      },
+      "properties": {
+        "icon": "american-football-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3415321778425,
+          30.91845994698453
+        ]
+      },
+      "properties": {
+        "icon": "amusement-park-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.26953217784249,
+          30.91845994698453
+        ]
+      },
+      "properties": {
+        "icon": "aquarium-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.19753217784249,
+          30.91845994698453
+        ]
+      },
+      "properties": {
+        "icon": "art-gallery-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.12553217784249,
+          30.91845994698453
+        ]
+      },
+      "properties": {
+        "icon": "attraction-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.05353217784248,
+          30.91845994698453
+        ]
+      },
+      "properties": {
+        "icon": "bakery-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.98153217784248,
+          30.91845994698453
+        ]
+      },
+      "properties": {
+        "icon": "bank-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.90953217784248,
+          30.91845994698453
+        ]
+      },
+      "properties": {
+        "icon": "bar-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83753217784248,
+          30.91845994698453
+        ]
+      },
+      "properties": {
+        "icon": "basketball-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76553217784247,
+          30.91845994698453
+        ]
+      },
+      "properties": {
+        "icon": "beach-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.69353217784247,
+          30.91845994698453
+        ]
+      },
+      "properties": {
+        "icon": "beer-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62153217784247,
+          30.91845994698453
+        ]
+      },
+      "properties": {
+        "icon": "bicycle-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54953217784247,
+          30.91845994698453
+        ]
+      },
+      "properties": {
+        "icon": "bowling-alley-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47753217784246,
+          30.91845994698453
+        ]
+      },
+      "properties": {
+        "icon": "bridge-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.40553217784246,
+          30.91845994698453
+        ]
+      },
+      "properties": {
+        "icon": "cafe-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.33353217784246,
+          30.91845994698453
+        ]
+      },
+      "properties": {
+        "icon": "campsite-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.26153217784245,
+          30.91845994698453
+        ]
+      },
+      "properties": {
+        "icon": "car-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6295321778425,
+          30.87345994698453
+        ]
+      },
+      "properties": {
+        "icon": "car-rental-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5575321778425,
+          30.87345994698453
+        ]
+      },
+      "properties": {
+        "icon": "car-repair-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4855321778425,
+          30.87345994698453
+        ]
+      },
+      "properties": {
+        "icon": "casino-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4135321778425,
+          30.87345994698453
+        ]
+      },
+      "properties": {
+        "icon": "castle-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3415321778425,
+          30.87345994698453
+        ]
+      },
+      "properties": {
+        "icon": "cemetery-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.26953217784249,
+          30.87345994698453
+        ]
+      },
+      "properties": {
+        "icon": "charging-station-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.19753217784249,
+          30.87345994698453
+        ]
+      },
+      "properties": {
+        "icon": "cinema-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.12553217784249,
+          30.87345994698453
+        ]
+      },
+      "properties": {
+        "icon": "clothing-store-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.05353217784248,
+          30.87345994698453
+        ]
+      },
+      "properties": {
+        "icon": "college-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.98153217784248,
+          30.87345994698453
+        ]
+      },
+      "properties": {
+        "icon": "communications-tower-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.90953217784248,
+          30.87345994698453
+        ]
+      },
+      "properties": {
+        "icon": "confectionery-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83753217784248,
+          30.87345994698453
+        ]
+      },
+      "properties": {
+        "icon": "convenience-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76553217784247,
+          30.87345994698453
+        ]
+      },
+      "properties": {
+        "icon": "dentist-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.69353217784247,
+          30.87345994698453
+        ]
+      },
+      "properties": {
+        "icon": "doctor-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62153217784247,
+          30.87345994698453
+        ]
+      },
+      "properties": {
+        "icon": "dog-park-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54953217784247,
+          30.87345994698453
+        ]
+      },
+      "properties": {
+        "icon": "drinking-water-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47753217784246,
+          30.87345994698453
+        ]
+      },
+      "properties": {
+        "icon": "embassy-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.40553217784246,
+          30.87345994698453
+        ]
+      },
+      "properties": {
+        "icon": "farm-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.33353217784246,
+          30.87345994698453
+        ]
+      },
+      "properties": {
+        "icon": "fast-food-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.26153217784245,
+          30.87345994698453
+        ]
+      },
+      "properties": {
+        "icon": "fire-station-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6295321778425,
+          30.828459946984527
+        ]
+      },
+      "properties": {
+        "icon": "fitness-centre-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5575321778425,
+          30.828459946984527
+        ]
+      },
+      "properties": {
+        "icon": "fuel-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4855321778425,
+          30.828459946984527
+        ]
+      },
+      "properties": {
+        "icon": "furniture-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4135321778425,
+          30.828459946984527
+        ]
+      },
+      "properties": {
+        "icon": "garden-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3415321778425,
+          30.828459946984527
+        ]
+      },
+      "properties": {
+        "icon": "globe-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.26953217784249,
+          30.828459946984527
+        ]
+      },
+      "properties": {
+        "icon": "golf-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.19753217784249,
+          30.828459946984527
+        ]
+      },
+      "properties": {
+        "icon": "grocery-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.12553217784249,
+          30.828459946984527
+        ]
+      },
+      "properties": {
+        "icon": "harbor-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.05353217784248,
+          30.828459946984527
+        ]
+      },
+      "properties": {
+        "icon": "hardware-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.98153217784248,
+          30.828459946984527
+        ]
+      },
+      "properties": {
+        "icon": "heliport-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.90953217784248,
+          30.828459946984527
+        ]
+      },
+      "properties": {
+        "icon": "horse-riding-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83753217784248,
+          30.828459946984527
+        ]
+      },
+      "properties": {
+        "icon": "hospital-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76553217784247,
+          30.828459946984527
+        ]
+      },
+      "properties": {
+        "icon": "ice-cream-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.69353217784247,
+          30.828459946984527
+        ]
+      },
+      "properties": {
+        "icon": "information-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62153217784247,
+          30.828459946984527
+        ]
+      },
+      "properties": {
+        "icon": "jewelry-store-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54953217784247,
+          30.828459946984527
+        ]
+      },
+      "properties": {
+        "icon": "laundry-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47753217784246,
+          30.828459946984527
+        ]
+      },
+      "properties": {
+        "icon": "library-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.40553217784246,
+          30.828459946984527
+        ]
+      },
+      "properties": {
+        "icon": "lodging-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.33353217784246,
+          30.828459946984527
+        ]
+      },
+      "properties": {
+        "icon": "mobile-phone-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.26153217784245,
+          30.828459946984527
+        ]
+      },
+      "properties": {
+        "icon": "monument-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6295321778425,
+          30.783459946984525
+        ]
+      },
+      "properties": {
+        "icon": "mountain-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5575321778425,
+          30.783459946984525
+        ]
+      },
+      "properties": {
+        "icon": "museum-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4855321778425,
+          30.783459946984525
+        ]
+      },
+      "properties": {
+        "icon": "music-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4135321778425,
+          30.783459946984525
+        ]
+      },
+      "properties": {
+        "icon": "optician-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3415321778425,
+          30.783459946984525
+        ]
+      },
+      "properties": {
+        "icon": "park-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.26953217784249,
+          30.783459946984525
+        ]
+      },
+      "properties": {
+        "icon": "parking-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.19753217784249,
+          30.783459946984525
+        ]
+      },
+      "properties": {
+        "icon": "parking-garage-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.12553217784249,
+          30.783459946984525
+        ]
+      },
+      "properties": {
+        "icon": "pharmacy-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.05353217784248,
+          30.783459946984525
+        ]
+      },
+      "properties": {
+        "icon": "picnic-site-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.98153217784248,
+          30.783459946984525
+        ]
+      },
+      "properties": {
+        "icon": "pitch-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.90953217784248,
+          30.783459946984525
+        ]
+      },
+      "properties": {
+        "icon": "place-of-worship-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83753217784248,
+          30.783459946984525
+        ]
+      },
+      "properties": {
+        "icon": "playground-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76553217784247,
+          30.783459946984525
+        ]
+      },
+      "properties": {
+        "icon": "police-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.69353217784247,
+          30.783459946984525
+        ]
+      },
+      "properties": {
+        "icon": "post-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62153217784247,
+          30.783459946984525
+        ]
+      },
+      "properties": {
+        "icon": "prison-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54953217784247,
+          30.783459946984525
+        ]
+      },
+      "properties": {
+        "icon": "ranger-station-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47753217784246,
+          30.783459946984525
+        ]
+      },
+      "properties": {
+        "icon": "religious-buddhist-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.40553217784246,
+          30.783459946984525
+        ]
+      },
+      "properties": {
+        "icon": "religious-christian-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.33353217784246,
+          30.783459946984525
+        ]
+      },
+      "properties": {
+        "icon": "religious-jewish-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.26153217784245,
+          30.783459946984525
+        ]
+      },
+      "properties": {
+        "icon": "religious-muslim-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6295321778425,
+          30.738459946984523
+        ]
+      },
+      "properties": {
+        "icon": "restaurant-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5575321778425,
+          30.738459946984523
+        ]
+      },
+      "properties": {
+        "icon": "restaurant-noodle-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4855321778425,
+          30.738459946984523
+        ]
+      },
+      "properties": {
+        "icon": "restaurant-pizza-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4135321778425,
+          30.738459946984523
+        ]
+      },
+      "properties": {
+        "icon": "restaurant-seafood-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3415321778425,
+          30.738459946984523
+        ]
+      },
+      "properties": {
+        "icon": "rocket-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.26953217784249,
+          30.738459946984523
+        ]
+      },
+      "properties": {
+        "icon": "school-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.19753217784249,
+          30.738459946984523
+        ]
+      },
+      "properties": {
+        "icon": "shoe-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.12553217784249,
+          30.738459946984523
+        ]
+      },
+      "properties": {
+        "icon": "shop-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.05353217784248,
+          30.738459946984523
+        ]
+      },
+      "properties": {
+        "icon": "skateboard-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.98153217784248,
+          30.738459946984523
+        ]
+      },
+      "properties": {
+        "icon": "slipway-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.90953217784248,
+          30.738459946984523
+        ]
+      },
+      "properties": {
+        "icon": "stadium-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83753217784248,
+          30.738459946984523
+        ]
+      },
+      "properties": {
+        "icon": "suitcase-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76553217784247,
+          30.738459946984523
+        ]
+      },
+      "properties": {
+        "icon": "swimming-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.69353217784247,
+          30.738459946984523
+        ]
+      },
+      "properties": {
+        "icon": "table-tennis-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62153217784247,
+          30.738459946984523
+        ]
+      },
+      "properties": {
+        "icon": "tennis-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54953217784247,
+          30.738459946984523
+        ]
+      },
+      "properties": {
+        "icon": "theatre-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47753217784246,
+          30.738459946984523
+        ]
+      },
+      "properties": {
+        "icon": "toilet-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.40553217784246,
+          30.738459946984523
+        ]
+      },
+      "properties": {
+        "icon": "town-hall-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.33353217784246,
+          30.738459946984523
+        ]
+      },
+      "properties": {
+        "icon": "veterinary-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.26153217784245,
+          30.738459946984523
+        ]
+      },
+      "properties": {
+        "icon": "viewpoint-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6295321778425,
+          30.69345994698452
+        ]
+      },
+      "properties": {
+        "icon": "volcano-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5575321778425,
+          30.69345994698452
+        ]
+      },
+      "properties": {
+        "icon": "volleyball-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4855321778425,
+          30.69345994698452
+        ]
+      },
+      "properties": {
+        "icon": "watch-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4135321778425,
+          30.69345994698452
+        ]
+      },
+      "properties": {
+        "icon": "waterfall-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3415321778425,
+          30.69345994698452
+        ]
+      },
+      "properties": {
+        "icon": "watermill-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.26953217784249,
+          30.69345994698452
+        ]
+      },
+      "properties": {
+        "icon": "windmill-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.19753217784249,
+          30.69345994698452
+        ]
+      },
+      "properties": {
+        "icon": "zoo-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.12553217784249,
+          30.69345994698452
+        ]
+      },
+      "properties": {
+        "icon": "marker-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.05353217784248,
+          30.69345994698452
+        ]
+      },
+      "properties": {
+        "icon": "marker-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.98153217784248,
+          30.69345994698452
+        ]
+      },
+      "properties": {
+        "icon": "airfield-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.90953217784248,
+          30.69345994698452
+        ]
+      },
+      "properties": {
+        "icon": "airport-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83753217784248,
+          30.69345994698452
+        ]
+      },
+      "properties": {
+        "icon": "alcohol-shop-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76553217784247,
+          30.69345994698452
+        ]
+      },
+      "properties": {
+        "icon": "american-football-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.69353217784247,
+          30.69345994698452
+        ]
+      },
+      "properties": {
+        "icon": "amusement-park-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62153217784247,
+          30.69345994698452
+        ]
+      },
+      "properties": {
+        "icon": "aquarium-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54953217784247,
+          30.69345994698452
+        ]
+      },
+      "properties": {
+        "icon": "art-gallery-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47753217784246,
+          30.69345994698452
+        ]
+      },
+      "properties": {
+        "icon": "attraction-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.40553217784246,
+          30.69345994698452
+        ]
+      },
+      "properties": {
+        "icon": "bakery-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.33353217784246,
+          30.69345994698452
+        ]
+      },
+      "properties": {
+        "icon": "bank-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.26153217784245,
+          30.69345994698452
+        ]
+      },
+      "properties": {
+        "icon": "bar-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6295321778425,
+          30.64845994698452
+        ]
+      },
+      "properties": {
+        "icon": "basketball-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5575321778425,
+          30.64845994698452
+        ]
+      },
+      "properties": {
+        "icon": "beach-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4855321778425,
+          30.64845994698452
+        ]
+      },
+      "properties": {
+        "icon": "beer-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4135321778425,
+          30.64845994698452
+        ]
+      },
+      "properties": {
+        "icon": "bicycle-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3415321778425,
+          30.64845994698452
+        ]
+      },
+      "properties": {
+        "icon": "bicycle-share"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.26953217784249,
+          30.64845994698452
+        ]
+      },
+      "properties": {
+        "icon": "bowling-alley-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.19753217784249,
+          30.64845994698452
+        ]
+      },
+      "properties": {
+        "icon": "bridge-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.12553217784249,
+          30.64845994698452
+        ]
+      },
+      "properties": {
+        "icon": "bus"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.05353217784248,
+          30.64845994698452
+        ]
+      },
+      "properties": {
+        "icon": "cafe-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.98153217784248,
+          30.64845994698452
+        ]
+      },
+      "properties": {
+        "icon": "campsite-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.90953217784248,
+          30.64845994698452
+        ]
+      },
+      "properties": {
+        "icon": "car-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83753217784248,
+          30.64845994698452
+        ]
+      },
+      "properties": {
+        "icon": "car-rental-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76553217784247,
+          30.64845994698452
+        ]
+      },
+      "properties": {
+        "icon": "car-repair-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.69353217784247,
+          30.64845994698452
+        ]
+      },
+      "properties": {
+        "icon": "casino-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62153217784247,
+          30.64845994698452
+        ]
+      },
+      "properties": {
+        "icon": "castle-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54953217784247,
+          30.64845994698452
+        ]
+      },
+      "properties": {
+        "icon": "cemetery-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47753217784246,
+          30.64845994698452
+        ]
+      },
+      "properties": {
+        "icon": "charging-station-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.40553217784246,
+          30.64845994698452
+        ]
+      },
+      "properties": {
+        "icon": "cinema-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.33353217784246,
+          30.64845994698452
+        ]
+      },
+      "properties": {
+        "icon": "clothing-store-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.26153217784245,
+          30.64845994698452
+        ]
+      },
+      "properties": {
+        "icon": "college-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6295321778425,
+          30.60345994698452
+        ]
+      },
+      "properties": {
+        "icon": "communications-tower-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5575321778425,
+          30.60345994698452
+        ]
+      },
+      "properties": {
+        "icon": "confectionery-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4855321778425,
+          30.60345994698452
+        ]
+      },
+      "properties": {
+        "icon": "convenience-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4135321778425,
+          30.60345994698452
+        ]
+      },
+      "properties": {
+        "icon": "dentist-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3415321778425,
+          30.60345994698452
+        ]
+      },
+      "properties": {
+        "icon": "doctor-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.26953217784249,
+          30.60345994698452
+        ]
+      },
+      "properties": {
+        "icon": "dog-park-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.19753217784249,
+          30.60345994698452
+        ]
+      },
+      "properties": {
+        "icon": "drinking-water-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.12553217784249,
+          30.60345994698452
+        ]
+      },
+      "properties": {
+        "icon": "embassy-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.05353217784248,
+          30.60345994698452
+        ]
+      },
+      "properties": {
+        "icon": "entrance"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.98153217784248,
+          30.60345994698452
+        ]
+      },
+      "properties": {
+        "icon": "farm-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.90953217784248,
+          30.60345994698452
+        ]
+      },
+      "properties": {
+        "icon": "fast-food-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83753217784248,
+          30.60345994698452
+        ]
+      },
+      "properties": {
+        "icon": "ferry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76553217784247,
+          30.60345994698452
+        ]
+      },
+      "properties": {
+        "icon": "fire-station-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.69353217784247,
+          30.60345994698452
+        ]
+      },
+      "properties": {
+        "icon": "fitness-centre-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62153217784247,
+          30.60345994698452
+        ]
+      },
+      "properties": {
+        "icon": "fuel-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54953217784247,
+          30.60345994698452
+        ]
+      },
+      "properties": {
+        "icon": "furniture-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47753217784246,
+          30.60345994698452
+        ]
+      },
+      "properties": {
+        "icon": "garden-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.40553217784246,
+          30.60345994698452
+        ]
+      },
+      "properties": {
+        "icon": "globe-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.33353217784246,
+          30.60345994698452
+        ]
+      },
+      "properties": {
+        "icon": "golf-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.26153217784245,
+          30.60345994698452
+        ]
+      },
+      "properties": {
+        "icon": "grocery-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6295321778425,
+          30.558459946984517
+        ]
+      },
+      "properties": {
+        "icon": "harbor-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5575321778425,
+          30.558459946984517
+        ]
+      },
+      "properties": {
+        "icon": "hardware-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4855321778425,
+          30.558459946984517
+        ]
+      },
+      "properties": {
+        "icon": "heliport-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4135321778425,
+          30.558459946984517
+        ]
+      },
+      "properties": {
+        "icon": "horse-riding-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3415321778425,
+          30.558459946984517
+        ]
+      },
+      "properties": {
+        "icon": "hospital-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.26953217784249,
+          30.558459946984517
+        ]
+      },
+      "properties": {
+        "icon": "ice-cream-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.19753217784249,
+          30.558459946984517
+        ]
+      },
+      "properties": {
+        "icon": "information-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.12553217784249,
+          30.558459946984517
+        ]
+      },
+      "properties": {
+        "icon": "jewelry-store-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.05353217784248,
+          30.558459946984517
+        ]
+      },
+      "properties": {
+        "icon": "laundry-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.98153217784248,
+          30.558459946984517
+        ]
+      },
+      "properties": {
+        "icon": "library-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.90953217784248,
+          30.558459946984517
+        ]
+      },
+      "properties": {
+        "icon": "lodging-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83753217784248,
+          30.558459946984517
+        ]
+      },
+      "properties": {
+        "icon": "mobile-phone-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76553217784247,
+          30.558459946984517
+        ]
+      },
+      "properties": {
+        "icon": "monument-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.69353217784247,
+          30.558459946984517
+        ]
+      },
+      "properties": {
+        "icon": "mountain-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62153217784247,
+          30.558459946984517
+        ]
+      },
+      "properties": {
+        "icon": "museum-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54953217784247,
+          30.558459946984517
+        ]
+      },
+      "properties": {
+        "icon": "music-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47753217784246,
+          30.558459946984517
+        ]
+      },
+      "properties": {
+        "icon": "optician-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.40553217784246,
+          30.558459946984517
+        ]
+      },
+      "properties": {
+        "icon": "park-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.33353217784246,
+          30.558459946984517
+        ]
+      },
+      "properties": {
+        "icon": "parking-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.26153217784245,
+          30.558459946984517
+        ]
+      },
+      "properties": {
+        "icon": "parking-garage-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6295321778425,
+          30.513459946984515
+        ]
+      },
+      "properties": {
+        "icon": "pharmacy-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5575321778425,
+          30.513459946984515
+        ]
+      },
+      "properties": {
+        "icon": "picnic-site-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4855321778425,
+          30.513459946984515
+        ]
+      },
+      "properties": {
+        "icon": "pitch-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4135321778425,
+          30.513459946984515
+        ]
+      },
+      "properties": {
+        "icon": "place-of-worship-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3415321778425,
+          30.513459946984515
+        ]
+      },
+      "properties": {
+        "icon": "playground-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.26953217784249,
+          30.513459946984515
+        ]
+      },
+      "properties": {
+        "icon": "police-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.19753217784249,
+          30.513459946984515
+        ]
+      },
+      "properties": {
+        "icon": "post-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.12553217784249,
+          30.513459946984515
+        ]
+      },
+      "properties": {
+        "icon": "prison-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.05353217784248,
+          30.513459946984515
+        ]
+      },
+      "properties": {
+        "icon": "rail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.98153217784248,
+          30.513459946984515
+        ]
+      },
+      "properties": {
+        "icon": "rail-light"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.90953217784248,
+          30.513459946984515
+        ]
+      },
+      "properties": {
+        "icon": "rail-metro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83753217784248,
+          30.513459946984515
+        ]
+      },
+      "properties": {
+        "icon": "ranger-station-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76553217784247,
+          30.513459946984515
+        ]
+      },
+      "properties": {
+        "icon": "religious-buddhist-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.69353217784247,
+          30.513459946984515
+        ]
+      },
+      "properties": {
+        "icon": "religious-christian-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62153217784247,
+          30.513459946984515
+        ]
+      },
+      "properties": {
+        "icon": "religious-jewish-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54953217784247,
+          30.513459946984515
+        ]
+      },
+      "properties": {
+        "icon": "religious-muslim-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47753217784246,
+          30.513459946984515
+        ]
+      },
+      "properties": {
+        "icon": "restaurant-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.40553217784246,
+          30.513459946984515
+        ]
+      },
+      "properties": {
+        "icon": "restaurant-noodle-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.33353217784246,
+          30.513459946984515
+        ]
+      },
+      "properties": {
+        "icon": "restaurant-pizza-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.26153217784245,
+          30.513459946984515
+        ]
+      },
+      "properties": {
+        "icon": "restaurant-seafood-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6295321778425,
+          30.468459946984513
+        ]
+      },
+      "properties": {
+        "icon": "rocket-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5575321778425,
+          30.468459946984513
+        ]
+      },
+      "properties": {
+        "icon": "school-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4855321778425,
+          30.468459946984513
+        ]
+      },
+      "properties": {
+        "icon": "shoe-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4135321778425,
+          30.468459946984513
+        ]
+      },
+      "properties": {
+        "icon": "shop-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3415321778425,
+          30.468459946984513
+        ]
+      },
+      "properties": {
+        "icon": "skateboard-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.26953217784249,
+          30.468459946984513
+        ]
+      },
+      "properties": {
+        "icon": "slipway-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.19753217784249,
+          30.468459946984513
+        ]
+      },
+      "properties": {
+        "icon": "stadium-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.12553217784249,
+          30.468459946984513
+        ]
+      },
+      "properties": {
+        "icon": "suitcase-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.05353217784248,
+          30.468459946984513
+        ]
+      },
+      "properties": {
+        "icon": "swimming-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.98153217784248,
+          30.468459946984513
+        ]
+      },
+      "properties": {
+        "icon": "table-tennis-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.90953217784248,
+          30.468459946984513
+        ]
+      },
+      "properties": {
+        "icon": "tennis-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83753217784248,
+          30.468459946984513
+        ]
+      },
+      "properties": {
+        "icon": "theatre-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76553217784247,
+          30.468459946984513
+        ]
+      },
+      "properties": {
+        "icon": "toilet-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.69353217784247,
+          30.468459946984513
+        ]
+      },
+      "properties": {
+        "icon": "town-hall-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62153217784247,
+          30.468459946984513
+        ]
+      },
+      "properties": {
+        "icon": "veterinary-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54953217784247,
+          30.468459946984513
+        ]
+      },
+      "properties": {
+        "icon": "viewpoint-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47753217784246,
+          30.468459946984513
+        ]
+      },
+      "properties": {
+        "icon": "volcano-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.40553217784246,
+          30.468459946984513
+        ]
+      },
+      "properties": {
+        "icon": "volleyball-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.33353217784246,
+          30.468459946984513
+        ]
+      },
+      "properties": {
+        "icon": "watch-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.26153217784245,
+          30.468459946984513
+        ]
+      },
+      "properties": {
+        "icon": "waterfall-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6295321778425,
+          30.42345994698451
+        ]
+      },
+      "properties": {
+        "icon": "watermill-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5575321778425,
+          30.42345994698451
+        ]
+      },
+      "properties": {
+        "icon": "windmill-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4855321778425,
+          30.42345994698451
+        ]
+      },
+      "properties": {
+        "icon": "zoo-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4135321778425,
+          30.42345994698451
+        ]
+      },
+      "properties": {
+        "icon": "border-dot-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3415321778425,
+          30.42345994698451
+        ]
+      },
+      "properties": {
+        "icon": "dot-10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.26953217784249,
+          30.42345994698451
+        ]
+      },
+      "properties": {
+        "icon": "dot-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.19753217784249,
+          30.42345994698451
+        ]
+      },
+      "properties": {
+        "icon": "dot-9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.12553217784249,
+          30.42345994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite9001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.05353217784248,
+          30.42345994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite9002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.98153217784248,
+          30.42345994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite9003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.90953217784248,
+          30.42345994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite9004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83753217784248,
+          30.42345994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite9005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76553217784247,
+          30.42345994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite9006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.69353217784247,
+          30.42345994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite9007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62153217784247,
+          30.42345994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite9008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54953217784247,
+          30.42345994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite9009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47753217784246,
+          30.42345994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite10001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.40553217784246,
+          30.42345994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite10002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.33353217784246,
+          30.42345994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite10003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.26153217784245,
+          30.42345994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite10004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6295321778425,
+          30.37845994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite10005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5575321778425,
+          30.37845994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite10006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4855321778425,
+          30.37845994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite10007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4135321778425,
+          30.37845994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite10008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3415321778425,
+          30.37845994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite10009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.26953217784249,
+          30.37845994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite13001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.19753217784249,
+          30.37845994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite13002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.12553217784249,
+          30.37845994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite13003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.05353217784248,
+          30.37845994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite13004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.98153217784248,
+          30.37845994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite13005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.90953217784248,
+          30.37845994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite13006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83753217784248,
+          30.37845994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite13007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76553217784247,
+          30.37845994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite13008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.69353217784247,
+          30.37845994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite13009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62153217784247,
+          30.37845994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite31001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54953217784247,
+          30.37845994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite31002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47753217784246,
+          30.37845994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite31003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.40553217784246,
+          30.37845994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite31004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.33353217784246,
+          30.37845994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite31005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.26153217784245,
+          30.37845994698451
+        ]
+      },
+      "properties": {
+        "icon": "sprite31006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6295321778425,
+          30.333459946984508
+        ]
+      },
+      "properties": {
+        "icon": "sprite31007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5575321778425,
+          30.333459946984508
+        ]
+      },
+      "properties": {
+        "icon": "sprite31008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4855321778425,
+          30.333459946984508
+        ]
+      },
+      "properties": {
+        "icon": "sprite31009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4135321778425,
+          30.333459946984508
+        ]
+      },
+      "properties": {
+        "icon": "sprite18001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3415321778425,
+          30.333459946984508
+        ]
+      },
+      "properties": {
+        "icon": "sprite18002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.26953217784249,
+          30.333459946984508
+        ]
+      },
+      "properties": {
+        "icon": "sprite18003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.19753217784249,
+          30.333459946984508
+        ]
+      },
+      "properties": {
+        "icon": "sprite18004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.12553217784249,
+          30.333459946984508
+        ]
+      },
+      "properties": {
+        "icon": "sprite18005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.05353217784248,
+          30.333459946984508
+        ]
+      },
+      "properties": {
+        "icon": "sprite18006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.98153217784248,
+          30.333459946984508
+        ]
+      },
+      "properties": {
+        "icon": "sprite18007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.90953217784248,
+          30.333459946984508
+        ]
+      },
+      "properties": {
+        "icon": "sprite18008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83753217784248,
+          30.333459946984508
+        ]
+      },
+      "properties": {
+        "icon": "sprite18009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76553217784247,
+          30.333459946984508
+        ]
+      },
+      "properties": {
+        "icon": "sprite19001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.69353217784247,
+          30.333459946984508
+        ]
+      },
+      "properties": {
+        "icon": "sprite19002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62153217784247,
+          30.333459946984508
+        ]
+      },
+      "properties": {
+        "icon": "sprite19003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54953217784247,
+          30.333459946984508
+        ]
+      },
+      "properties": {
+        "icon": "sprite19004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47753217784246,
+          30.333459946984508
+        ]
+      },
+      "properties": {
+        "icon": "sprite19005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.40553217784246,
+          30.333459946984508
+        ]
+      },
+      "properties": {
+        "icon": "sprite19006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.33353217784246,
+          30.333459946984508
+        ]
+      },
+      "properties": {
+        "icon": "sprite19007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.26153217784245,
+          30.333459946984508
+        ]
+      },
+      "properties": {
+        "icon": "sprite19008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6295321778425,
+          30.288459946984506
+        ]
+      },
+      "properties": {
+        "icon": "sprite19009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5575321778425,
+          30.288459946984506
+        ]
+      },
+      "properties": {
+        "icon": "sprite21001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4855321778425,
+          30.288459946984506
+        ]
+      },
+      "properties": {
+        "icon": "sprite21002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4135321778425,
+          30.288459946984506
+        ]
+      },
+      "properties": {
+        "icon": "sprite21003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3415321778425,
+          30.288459946984506
+        ]
+      },
+      "properties": {
+        "icon": "sprite21004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.26953217784249,
+          30.288459946984506
+        ]
+      },
+      "properties": {
+        "icon": "sprite21005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.19753217784249,
+          30.288459946984506
+        ]
+      },
+      "properties": {
+        "icon": "sprite21006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.12553217784249,
+          30.288459946984506
+        ]
+      },
+      "properties": {
+        "icon": "sprite21007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.05353217784248,
+          30.288459946984506
+        ]
+      },
+      "properties": {
+        "icon": "sprite21008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.98153217784248,
+          30.288459946984506
+        ]
+      },
+      "properties": {
+        "icon": "sprite21009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.90953217784248,
+          30.288459946984506
+        ]
+      },
+      "properties": {
+        "icon": "sprite3001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83753217784248,
+          30.288459946984506
+        ]
+      },
+      "properties": {
+        "icon": "sprite3002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76553217784247,
+          30.288459946984506
+        ]
+      },
+      "properties": {
+        "icon": "sprite3003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.69353217784247,
+          30.288459946984506
+        ]
+      },
+      "properties": {
+        "icon": "sprite3004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62153217784247,
+          30.288459946984506
+        ]
+      },
+      "properties": {
+        "icon": "sprite3005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54953217784247,
+          30.288459946984506
+        ]
+      },
+      "properties": {
+        "icon": "sprite3006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47753217784246,
+          30.288459946984506
+        ]
+      },
+      "properties": {
+        "icon": "sprite3007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.40553217784246,
+          30.288459946984506
+        ]
+      },
+      "properties": {
+        "icon": "sprite3008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.33353217784246,
+          30.288459946984506
+        ]
+      },
+      "properties": {
+        "icon": "sprite3009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.26153217784245,
+          30.288459946984506
+        ]
+      },
+      "properties": {
+        "icon": "sprite27001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6295321778425,
+          30.243459946984505
+        ]
+      },
+      "properties": {
+        "icon": "sprite27002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5575321778425,
+          30.243459946984505
+        ]
+      },
+      "properties": {
+        "icon": "sprite27003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4855321778425,
+          30.243459946984505
+        ]
+      },
+      "properties": {
+        "icon": "sprite27004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4135321778425,
+          30.243459946984505
+        ]
+      },
+      "properties": {
+        "icon": "sprite27005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3415321778425,
+          30.243459946984505
+        ]
+      },
+      "properties": {
+        "icon": "sprite27006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.26953217784249,
+          30.243459946984505
+        ]
+      },
+      "properties": {
+        "icon": "sprite27007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.19753217784249,
+          30.243459946984505
+        ]
+      },
+      "properties": {
+        "icon": "sprite27008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.12553217784249,
+          30.243459946984505
+        ]
+      },
+      "properties": {
+        "icon": "sprite27009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.05353217784248,
+          30.243459946984505
+        ]
+      },
+      "properties": {
+        "icon": "sprite4001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.98153217784248,
+          30.243459946984505
+        ]
+      },
+      "properties": {
+        "icon": "sprite4002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.90953217784248,
+          30.243459946984505
+        ]
+      },
+      "properties": {
+        "icon": "sprite4003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83753217784248,
+          30.243459946984505
+        ]
+      },
+      "properties": {
+        "icon": "sprite4004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76553217784247,
+          30.243459946984505
+        ]
+      },
+      "properties": {
+        "icon": "sprite4005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.69353217784247,
+          30.243459946984505
+        ]
+      },
+      "properties": {
+        "icon": "sprite4006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62153217784247,
+          30.243459946984505
+        ]
+      },
+      "properties": {
+        "icon": "sprite4007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54953217784247,
+          30.243459946984505
+        ]
+      },
+      "properties": {
+        "icon": "sprite4008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47753217784246,
+          30.243459946984505
+        ]
+      },
+      "properties": {
+        "icon": "sprite4009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.40553217784246,
+          30.243459946984505
+        ]
+      },
+      "properties": {
+        "icon": "sprite11001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.33353217784246,
+          30.243459946984505
+        ]
+      },
+      "properties": {
+        "icon": "sprite11002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.26153217784245,
+          30.243459946984505
+        ]
+      },
+      "properties": {
+        "icon": "sprite11003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6295321778425,
+          30.198459946984503
+        ]
+      },
+      "properties": {
+        "icon": "sprite11004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5575321778425,
+          30.198459946984503
+        ]
+      },
+      "properties": {
+        "icon": "sprite11005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4855321778425,
+          30.198459946984503
+        ]
+      },
+      "properties": {
+        "icon": "sprite11006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4135321778425,
+          30.198459946984503
+        ]
+      },
+      "properties": {
+        "icon": "sprite11007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3415321778425,
+          30.198459946984503
+        ]
+      },
+      "properties": {
+        "icon": "sprite11008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.26953217784249,
+          30.198459946984503
+        ]
+      },
+      "properties": {
+        "icon": "sprite11009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.19753217784249,
+          30.198459946984503
+        ]
+      },
+      "properties": {
+        "icon": "sprite25001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.12553217784249,
+          30.198459946984503
+        ]
+      },
+      "properties": {
+        "icon": "sprite25002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.05353217784248,
+          30.198459946984503
+        ]
+      },
+      "properties": {
+        "icon": "sprite25003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.98153217784248,
+          30.198459946984503
+        ]
+      },
+      "properties": {
+        "icon": "sprite25004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.90953217784248,
+          30.198459946984503
+        ]
+      },
+      "properties": {
+        "icon": "sprite25005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83753217784248,
+          30.198459946984503
+        ]
+      },
+      "properties": {
+        "icon": "sprite25006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76553217784247,
+          30.198459946984503
+        ]
+      },
+      "properties": {
+        "icon": "sprite25007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.69353217784247,
+          30.198459946984503
+        ]
+      },
+      "properties": {
+        "icon": "sprite25008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62153217784247,
+          30.198459946984503
+        ]
+      },
+      "properties": {
+        "icon": "sprite25009"
+      }
+    }
+  ]
+}
